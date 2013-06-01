@@ -1,0 +1,1129 @@
+THello
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/kevin/dev/cordova/shunt/build/Hello.app/Info.plist Hello/Hello-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Hello/config.xml build/Hello.app/config.xml
+cCpResource Hello/Resources/icons/icon-72.png build/Hello.app/icon-72.png
+cCpResource Hello/Resources/icons/icon.png build/Hello.app/icon.png
+cCpResource Hello/Resources/icons/icon@2x.png build/Hello.app/icon@2x.png
+cCpResource Hello/Resources/Capture.bundle build/Hello.app/Capture.bundle
+cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/en.lproj/Localizable.strings Hello/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/es.lproj/Localizable.strings Hello/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib
+cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/se.lproj/Localizable.strings Hello/Resources/se.lproj/Localizable.strings
+cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/de.lproj/Localizable.strings Hello/Resources/de.lproj/Localizable.strings
+cCpResource Hello/Resources/splash/Default-Landscape@2x~ipad.png build/Hello.app/Default-Landscape@2x~ipad.png
+cCpResource Hello/Resources/splash/Default-Landscape~ipad.png build/Hello.app/Default-Landscape~ipad.png
+cCpResource Hello/Resources/splash/Default-Portrait@2x~ipad.png build/Hello.app/Default-Portrait@2x~ipad.png
+cCpResource Hello/Resources/splash/Default-Portrait~ipad.png build/Hello.app/Default-Portrait~ipad.png
+cCpResource Hello/Resources/splash/Default@2x~iphone.png build/Hello.app/Default@2x~iphone.png
+cCpResource Hello/Resources/splash/Default~iphone.png build/Hello.app/Default~iphone.png
+cCpResource Hello/Resources/splash/Default-568h@2x~iphone.png build/Hello.app/Default-568h@2x~iphone.png
+cProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o /Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o /Users/kevin/dev/cordova/shunt/Hello/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello normal i386
+cGenerateDSYMFile /Users/kevin/dev/cordova/shunt/build/Hello.app.dSYM /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello
+cTouch /Users/kevin/dev/cordova/shunt/build/Hello.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005170F27C0000000000000110
+t1366356604
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005106E94C00000000001EB540
+t1359407436
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005106E94C00000000000C1030
+t1359407436
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005106E94C0000000000193640
+t1359407436
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005106E94C00000000000226E0
+t1359407436
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005106E94C00000000003D4DF0
+t1359407436
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005106E94D0000000000215DB0
+t1359407437
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005106E94D0000000000228FE0
+t1359407437
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005106E94D000000000009C590
+t1359407437
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005106E94D0000000000085620
+t1359407437
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005106E94D00000000003DDFA0
+t1359407437
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005106E94E00000000002DBA50
+t1359407438
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005106E94E00000000000BCC20
+t1359407438
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005106E94E00000000001D5750
+t1359407438
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005106E94F000000000006CC50
+t1359407439
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005106E94F0000000000AB6230
+t1359407439
+s11231792
+
+N/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.h
+c000000005135137E00000000000005AF
+t1362432894
+s1455
+
+N/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m
+c000000005135137E0000000000001222
+t1362432894
+s4642
+
+N/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.h
+c000000005135137E00000000000004CB
+t1362432894
+s1227
+
+N/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.m
+c000000005135137E0000000000001266
+t1362432894
+s4710
+
+N/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.xib
+c000000005135137E0000000000001759
+t1362432894
+s5977
+
+N/Users/kevin/dev/cordova/hello/Hello/Hello-Prefix.pch
+c000000005135137E00000000000003BB
+t1362432894
+s955
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/Capture.bundle
+c000000005135137E000000000000030E
+t1362432894
+s782
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/de.lproj/Localizable.strings
+c000000005135137E0000000000000485
+t1362432894
+s1157
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/en.lproj/Localizable.strings
+c000000005135137E0000000000000470
+t1362432894
+s1136
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/es.lproj/Localizable.strings
+c000000005135137E000000000000047D
+t1362432894
+s1149
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/icons/icon-72.png
+c000000005135137E0000000000001350
+t1362432894
+s4944
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/icons/icon.png
+c000000005135137E0000000000000F3E
+t1362432894
+s3902
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/icons/icon@2x.png
+c000000005135137E0000000000001EBD
+t1362432894
+s7869
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/se.lproj/Localizable.strings
+c000000005135137E0000000000000471
+t1362432894
+s1137
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default-568h@2x~iphone.png
+c000000005135137E00000000000074F8
+t1362432894
+s29944
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005135137E0000000000012735
+t1362432894
+s75573
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default-Landscape~ipad.png
+c000000005135137E000000000000817B
+t1362432894
+s33147
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005135137E0000000000012171
+t1362432894
+s74097
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default-Portrait~ipad.png
+c000000005135137E0000000000007F9A
+t1362432894
+s32666
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default@2x~iphone.png
+c000000005135137E0000000000007323
+t1362432894
+s29475
+
+N/Users/kevin/dev/cordova/hello/Hello/Resources/splash/Default~iphone.png
+c000000005135137E000000000000289A
+t1362432894
+s10394
+
+N/Users/kevin/dev/cordova/hello/Hello/config.xml
+c000000005135137E0000000000000B13
+t1362432894
+s2835
+
+N/Users/kevin/dev/cordova/hello/Hello/main.m
+c000000005135137E0000000000000457
+t1362432894
+s1111
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app.dSYM
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Capture.bundle
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Default~iphone.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Hello
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/Info.plist
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/MainViewController.nib
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/PkgInfo
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/config.xml
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/icon-72.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/icon.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/icon@2x.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/Hello.LinkFileList
+c00000000519A3C6E000000000000015F
+t1369062510
+s351
+
+N/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+c00000000519A3C6E000000000000042B
+t1369062510
+s1067
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVAvailability.h
+c00000000519A3C6D0000000000000AF8
+t1369062509
+s2808
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVCommandDelegate.h
+c00000000519A3C6D000000000000095D
+t1369062509
+s2397
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVCommandDelegateImpl.h
+c00000000519A3C6D0000000000000473
+t1369062509
+s1139
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVCommandQueue.h
+c00000000519A3C6D00000000000005AA
+t1369062509
+s1450
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVInvokedUrlCommand.h
+c00000000519A3C6D0000000000000907
+t1369062509
+s2311
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVPlugin.h
+c00000000519A3C6D00000000000008CC
+t1369062509
+s2252
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVPluginResult.h
+c00000000519A3C6D0000000000000A5D
+t1369062509
+s2653
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000519A3C6D0000000000000408
+t1369062509
+s1032
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVViewController.h
+c00000000519A3C6D0000000000000B1D
+t1369062509
+s2845
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVWhitelist.h
+c00000000519A3C6D000000000000052D
+t1369062509
+s1325
+
+N/Users/kevin/dev/cordova/hello/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000519A3C6D00000000000003A0
+t1369062509
+s928
+
+N/Users/kevin/dev/cordova/hello/build/libCordova.a
+c00000000519A3C6E0000000000348310
+t1369062510
+s3441424
+
+N/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.h
+c0000000051A79EC000000000000005AF
+t1369939648
+s1455
+
+N/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m
+c0000000051A79EC00000000000001222
+t1369939648
+s4642
+
+N/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.h
+c0000000051A79EC000000000000004CB
+t1369939648
+s1227
+
+N/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m
+c0000000051A79EC00000000000001266
+t1369939648
+s4710
+
+N/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib
+c0000000051A79EC00000000000001759
+t1369939648
+s5977
+
+N/Users/kevin/dev/cordova/shunt/Hello/Hello-Prefix.pch
+c0000000051A79EC000000000000003BB
+t1369939648
+s955
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/Capture.bundle
+c0000000051A79EC0000000000000030E
+t1369939648
+s782
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/de.lproj/Localizable.strings
+c0000000051A79EC00000000000000485
+t1369939648
+s1157
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/en.lproj/Localizable.strings
+c0000000051A79EC00000000000000470
+t1369939648
+s1136
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/es.lproj/Localizable.strings
+c0000000051A79EC0000000000000047D
+t1369939648
+s1149
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/icons/icon-72.png
+c0000000051A79EC00000000000001350
+t1369939648
+s4944
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/icons/icon.png
+c0000000051A79EC00000000000000F3E
+t1369939648
+s3902
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/icons/icon@2x.png
+c0000000051A79EC00000000000001EBD
+t1369939648
+s7869
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/se.lproj/Localizable.strings
+c0000000051A79EC00000000000000471
+t1369939648
+s1137
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-568h@2x~iphone.png
+c0000000051A79EC000000000000074F8
+t1369939648
+s29944
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051A79EC00000000000012735
+t1369939648
+s75573
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Landscape~ipad.png
+c0000000051A79EC0000000000000817B
+t1369939648
+s33147
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051A79EC00000000000012171
+t1369939648
+s74097
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Portrait~ipad.png
+c0000000051A79EC00000000000007F9A
+t1369939648
+s32666
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default@2x~iphone.png
+c0000000051A79EC00000000000007323
+t1369939648
+s29475
+
+N/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default~iphone.png
+c0000000051A79EC0000000000000289A
+t1369939648
+s10394
+
+N/Users/kevin/dev/cordova/shunt/Hello/config.xml
+c0000000051A79EC00000000000000B13
+t1369939648
+s2835
+
+N/Users/kevin/dev/cordova/shunt/Hello/main.m
+c0000000051A79EC00000000000000457
+t1369939648
+s1111
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app.dSYM
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Capture.bundle
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Default~iphone.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Hello
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/Info.plist
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/MainViewController.nib
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/PkgInfo
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/config.xml
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/icon-72.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/icon.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/icon@2x.png
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/Hello.LinkFileList
+c0000000051A7B2CC000000000000015F
+t1369944780
+s351
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+c0000000051A7B2CC000000000000042B
+t1369944780
+s1067
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVAvailability.h
+c0000000051A7A1B60000000000000AF8
+t1369940406
+s2808
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVCommandDelegate.h
+c0000000051A7A1B6000000000000095D
+t1369940406
+s2397
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000051A7A1B60000000000000473
+t1369940406
+s1139
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVCommandQueue.h
+c0000000051A7A1B600000000000005AA
+t1369940406
+s1450
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000051A7A1B60000000000000907
+t1369940406
+s2311
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVPlugin.h
+c0000000051A7A1B600000000000008CC
+t1369940406
+s2252
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVPluginResult.h
+c0000000051A7A1B60000000000000A5D
+t1369940406
+s2653
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000051A7A1B60000000000000408
+t1369940406
+s1032
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVViewController.h
+c0000000051A7A1B60000000000000B1D
+t1369940406
+s2845
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVWhitelist.h
+c0000000051A7A1B6000000000000052D
+t1369940406
+s1325
+
+N/Users/kevin/dev/cordova/shunt/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000051A7A1B600000000000003A0
+t1369940406
+s928
+
+N/Users/kevin/dev/cordova/shunt/build/libCordova.a
+c0000000051A7B2CC0000000000348310
+t1369944780
+s3441424
+
+N/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.pth
+t2
+s0
+
+NHello/Hello-Info.plist
+c0000000051A79EC000000000000009C2
+t1369939648
+s2498
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies86c9c44cea57b741^03b4c54cea57b741^---0#1#0#--18"Check dependencies36"73326987-D6E3-4F79-A8F5-3A0893B19B87-
+
+CCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o /Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390755311.788055
+e390755311.844119
+r1
+xCompileC
+xbuild/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o
+x/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m04e2c9ef734ab741^e718d8ef734ab741^-647"/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/kevin/dev/cordova/hello/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-390755311#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-390755311#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/kevin/dev/cordova/hello/CordovaLib/Classes/CDVViewController.h0000000000000000^46#46#46#46#1832#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m0000000000000000^67#24#67#24#2262#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m0000000000000000^3376"CompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o Hello/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/hello    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/hello/build/include -I/Users/kevin/dev/cordova/hello/build/usr/local/lib/include -I/Users/kevin/dev/cordova/hello/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/hello/build -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/hello/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.dia -c /Users/kevin/dev/cordova/hello/Hello/Classes/AppDelegate.m -o /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o36"6343E3DA-6CAD-4DE9-B185-BA0B038750AD-
+
+CCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o /Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391637582.327126
+e391637582.392222
+r1
+xCompileC
+xbuild/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o
+x/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.ma4e2534eea57b741^0168644eea57b741^-647"/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-391637582#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-391637582#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVViewController.h0000000000000000^46#46#46#46#1832#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m0000000000000000^67#24#67#24#2262#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m0000000000000000^3376"CompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o Hello/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.dia -c /Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m -o /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/AppDelegate.o36"C4112423-F6AC-4931-A321-D39E9DD9D87A-
+
+CCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o /Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390755311.788036
+e390755311.837573
+r1
+xCompileC
+xbuild/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o
+x/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.m7ae2c9ef734ab741^1e6bd6ef734ab741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.m0000000000000000^3418"CompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o Hello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/hello    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/hello/build/include -I/Users/kevin/dev/cordova/hello/build/usr/local/lib/include -I/Users/kevin/dev/cordova/hello/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/hello/build -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/hello/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.dia -c /Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.m -o /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o36"BDD7EAD6-8A74-4476-A470-0C2A312A181D-
+
+CCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391637582.327142
+e391637582.380770
+r1
+xCompileC
+xbuild/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o
+x/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m71e6534eea57b741^427b614eea57b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m0000000000000000^3418"CompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o Hello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.dia -c /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m -o /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/MainViewController.o36"B94D8A9B-44EF-4D82-9CA5-5D413250B0AC-
+
+CCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o /Users/kevin/dev/cordova/hello/Hello/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390755311.788025
+e390755311.806325
+r1
+xCompileC
+xbuild/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o
+x/Users/kevin/dev/cordova/hello/Hello/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/kevin/dev/cordova/hello/Hello/main.mace2c9ef734ab741^ca6aceef734ab741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/kevin/dev/cordova/hello/Hello/main.m0000000000000000^3318"CompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o Hello/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/hello    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/hello/build/include -I/Users/kevin/dev/cordova/hello/build/usr/local/lib/include -I/Users/kevin/dev/cordova/hello/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/hello/build -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/hello/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.dia -c /Users/kevin/dev/cordova/hello/Hello/main.m -o /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o36"8DA495CF-6B4A-4A93-A87B-66241439B776-
+
+CCompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o /Users/kevin/dev/cordova/shunt/Hello/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391637582.327133
+e391637582.346816
+r1
+xCompileC
+xbuild/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o
+x/Users/kevin/dev/cordova/shunt/Hello/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/kevin/dev/cordova/shunt/Hello/main.m50e2534eea57b741^15c8584eea57b741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/kevin/dev/cordova/shunt/Hello/main.m0000000000000000^3318"CompileC build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o Hello/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.dia -c /Users/kevin/dev/cordova/shunt/Hello/main.m -o /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/main.o36"FF70503A-01DE-483E-A8AB-E154609E7B28-
+
+CCompileXIB /Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.xib
+s390755310.784673
+e390755311.561331
+r1
+xCompileXIB
+x/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.xib
+o2013-05-20 17:08:31.253 Interface Builder Cocoa Touch Tool[1778:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.xib27fac8ee734ab741^91b48fef734ab741^-237"2013-05-20 17:08:31.253 Interface Builder Cocoa Touch Tool[1778:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.xib0000000000000000^1106"CompileXIB Hello/Classes/MainViewController.xib    cd /Users/kevin/dev/cordova/hello    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/dev/cordova/hello/build/Hello.app/MainViewController.nib /Users/kevin/dev/cordova/hello/Hello/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"568FD8CD-F78A-49B3-BF27-EAF1189FEF1A-
+
+CCompileXIB /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib
+s391637580.912305
+e391637582.091783
+r1
+xCompileXIB
+x/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib
+o2013-05-30 22:13:01.765 Interface Builder Cocoa Touch Tool[15736:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xibe2afe94cea57b741^d07f174eea57b741^-238"2013-05-30 22:13:01.765 Interface Builder Cocoa Touch Tool[15736:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib0000000000000000^1106"CompileXIB Hello/Classes/MainViewController.xib    cd /Users/kevin/dev/cordova/shunt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/dev/cordova/shunt/build/Hello.app/MainViewController.nib /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"720AEF12-D2FB-4E15-967F-F324DD911155-
+
+CCopyStringsFile /Users/kevin/dev/cordova/hello/build/Hello.app/de.lproj/Localizable.strings Hello/Resources/de.lproj/Localizable.strings
+s390755310.787695
+e390755310.805446
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/hello/build/Hello.app/de.lproj/Localizable.strings
+xHello/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/de.lproj/Localizable.strings12bcc9ee734ab741^205fceee734ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/hello/Hello/Resources/de.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/de.lproj/Localizable.strings Hello/Resources/de.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/hello/build/Hello.app/de.lproj -- Hello/Resources/de.lproj/Localizable.strings36"4F5BB492-BC65-4D17-89FF-3FF998EA366A-
+
+CCopyStringsFile /Users/kevin/dev/cordova/hello/build/Hello.app/en.lproj/Localizable.strings Hello/Resources/en.lproj/Localizable.strings
+s390755310.784009
+e390755310.805292
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/hello/build/Hello.app/en.lproj/Localizable.strings
+xHello/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/en.lproj/Localizable.stringsebe4c8ee734ab741^f835ceee734ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/hello/Hello/Resources/en.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/en.lproj/Localizable.strings Hello/Resources/en.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/hello/build/Hello.app/en.lproj -- Hello/Resources/en.lproj/Localizable.strings36"BAFB234C-92E2-4D56-ABFD-47EE347AD148-
+
+CCopyStringsFile /Users/kevin/dev/cordova/hello/build/Hello.app/es.lproj/Localizable.strings Hello/Resources/es.lproj/Localizable.strings
+s390755310.784038
+e390755310.805360
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/hello/build/Hello.app/es.lproj/Localizable.strings
+xHello/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/es.lproj/Localizable.strings97e4c8ee734ab741^a857ceee734ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/hello/Hello/Resources/es.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/es.lproj/Localizable.strings Hello/Resources/es.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/hello/build/Hello.app/es.lproj -- Hello/Resources/es.lproj/Localizable.strings36"D59B7AE6-AA55-4330-90FB-1FFDBE62C1C6-
+
+CCopyStringsFile /Users/kevin/dev/cordova/hello/build/Hello.app/se.lproj/Localizable.strings Hello/Resources/se.lproj/Localizable.strings
+s390755310.788808
+e390755310.805381
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/hello/build/Hello.app/se.lproj/Localizable.strings
+xHello/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/se.lproj/Localizable.strings0804caee734ab741^af5dceee734ab741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/hello/Hello/Resources/se.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/se.lproj/Localizable.strings Hello/Resources/se.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/hello/build/Hello.app/se.lproj -- Hello/Resources/se.lproj/Localizable.strings36"49A48B98-7899-48F5-8E65-43836B0EC136-
+
+CCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/de.lproj/Localizable.strings Hello/Resources/de.lproj/Localizable.strings
+s391637580.916149
+e391637580.976782
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/de.lproj/Localizable.strings
+xHello/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/de.lproj/Localizable.strings90a2ea4cea57b741^2942fa4cea57b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Resources/de.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/de.lproj/Localizable.strings Hello/Resources/de.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/shunt/build/Hello.app/de.lproj -- Hello/Resources/de.lproj/Localizable.strings36"03E1D35E-7323-4E7A-B6F8-0E99322667BA-
+
+CCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/en.lproj/Localizable.strings Hello/Resources/en.lproj/Localizable.strings
+s391637580.912115
+e391637580.976672
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/en.lproj/Localizable.strings
+xHello/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/en.lproj/Localizable.strings37a8e94cea57b741^a512fa4cea57b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Resources/en.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/en.lproj/Localizable.strings Hello/Resources/en.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/shunt/build/Hello.app/en.lproj -- Hello/Resources/en.lproj/Localizable.strings36"6E71E833-D148-46BB-9600-DC9AF5E4CD07-
+
+CCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/es.lproj/Localizable.strings Hello/Resources/es.lproj/Localizable.strings
+s391637580.912299
+e391637580.976695
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/es.lproj/Localizable.strings
+xHello/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/es.lproj/Localizable.strings97ade94cea57b741^6538fa4cea57b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Resources/es.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/es.lproj/Localizable.strings Hello/Resources/es.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/shunt/build/Hello.app/es.lproj -- Hello/Resources/es.lproj/Localizable.strings36"F516539D-F18F-477F-B5FF-C7B1BC1D73F6-
+
+CCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Hello.app/se.lproj/Localizable.strings Hello/Resources/se.lproj/Localizable.strings
+s391637580.916143
+e391637580.976642
+r1
+xCopyStringsFile
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/se.lproj/Localizable.strings
+xHello/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Hello/Resources/se.lproj/Localizable.strings1aa2ea4cea57b741^f110fa4cea57b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Resources/se.lproj/Localizable.strings0000000000000000^776"CopyStringsFile build/Hello.app/se.lproj/Localizable.strings Hello/Resources/se.lproj/Localizable.strings    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/dev/cordova/shunt/build/Hello.app/se.lproj -- Hello/Resources/se.lproj/Localizable.strings36"D8CAC8C9-9549-4208-8180-E98AA8580548-
+
+CCpResource Hello/Resources/Capture.bundle build/Hello.app/Capture.bundle
+s391637580.912102
+e391637580.927036
+r1
+xCpResource
+xHello/Resources/Capture.bundle
+xbuild/Hello.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/Hello.app/Capture.bundled3a3e94cea57b741^11e3f94cea57b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Capture.bundle000000000080d041^770"CpResource Hello/Resources/Capture.bundle build/Hello.app/Capture.bundle    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Hello/Resources/Capture.bundle /Users/kevin/dev/cordova/shunt/build/Hello.app36"B0D4B664-35F7-4E3C-9D03-54872E3EF7DA-
+
+CCpResource Hello/Resources/icons/icon-72.png build/Hello.app/icon-72.png
+s391637580.912073
+e391637580.914957
+r1
+xCpResource
+xHello/Resources/icons/icon-72.png
+xbuild/Hello.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Hello.app/icon-72.png7ba0e94cea57b741^8e3aea4cea57b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/icon-72.png000000000080d041^773"CpResource Hello/Resources/icons/icon-72.png build/Hello.app/icon-72.png    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Hello/Resources/icons/icon-72.png /Users/kevin/dev/cordova/shunt/build/Hello.app36"F3A3DE20-040D-45C1-AD4C-D9E6C0948971-
+
+CCpResource Hello/Resources/icons/icon.png build/Hello.app/icon.png
+s391637580.912081
+e391637580.915768
+r1
+xCpResource
+xHello/Resources/icons/icon.png
+xbuild/Hello.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Copy build/Hello.app/icon.pngbaa1e94cea57b741^f86fea4cea57b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/icon.png000000000080d041^764"CpResource Hello/Resources/icons/icon.png build/Hello.app/icon.png    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Hello/Resources/icons/icon.png /Users/kevin/dev/cordova/shunt/build/Hello.app36"926FCA70-1EB6-4BDD-8CA1-46118DE363DC-
+
+CCpResource Hello/Resources/icons/icon@2x.png build/Hello.app/icon@2x.png
+s391637580.912091
+e391637580.919288
+r1
+xCpResource
+xHello/Resources/icons/icon@2x.png
+xbuild/Hello.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Hello.app/icon@2x.png48a4e94cea57b741^56d7f94cea57b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/icon@2x.png000000000080d041^779"CpResource "Hello/Resources/icons/icon@2x.png" "build/Hello.app/icon@2x.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/icons/icon@2x.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"67B4EAE2-5B77-498D-9FFA-3CB30794194E-
+
+CCpResource Hello/Resources/splash/Default-568h@2x~iphone.png build/Hello.app/Default-568h@2x~iphone.png
+s391637580.934992
+e391637580.939715
+r1
+xCpResource
+xHello/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Hello.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Hello.app/Default-568h@2x~iphone.png5987ef4cea57b741^65fef94cea57b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-568h@2x~iphone.png000000000080d041^826"CpResource "Hello/Resources/splash/Default-568h@2x~iphone.png" "build/Hello.app/Default-568h@2x~iphone.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-568h@2x~iphone.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"0CF89128-AA2C-4E42-89CE-2A77F63F5AF8-
+
+CCpResource Hello/Resources/splash/Default-Landscape@2x~ipad.png build/Hello.app/Default-Landscape@2x~ipad.png
+s391637580.917848
+e391637580.927607
+r1
+xCpResource
+xHello/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Hello.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Hello.app/Default-Landscape@2x~ipad.pngc70deb4cea57b741^89eaf94cea57b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Landscape@2x~ipad.png000000000080d041^835"CpResource "Hello/Resources/splash/Default-Landscape@2x~ipad.png" "build/Hello.app/Default-Landscape@2x~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Landscape@2x~ipad.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"D0580CA2-178E-4587-956A-99348FB7535B-
+
+CCpResource Hello/Resources/splash/Default-Landscape~ipad.png build/Hello.app/Default-Landscape~ipad.png
+s391637580.920471
+e391637580.928482
+r1
+xCpResource
+xHello/Resources/splash/Default-Landscape~ipad.png
+xbuild/Hello.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Hello.app/Default-Landscape~ipad.png41bbeb4cea57b741^e1edf94cea57b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Landscape~ipad.png000000000080d041^826"CpResource "Hello/Resources/splash/Default-Landscape~ipad.png" "build/Hello.app/Default-Landscape~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Landscape~ipad.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"A0C5D847-56FF-4A02-ACDF-85E53A5384B8-
+
+CCpResource Hello/Resources/splash/Default-Portrait@2x~ipad.png build/Hello.app/Default-Portrait@2x~ipad.png
+s391637580.928297
+e391637580.932912
+r1
+xCpResource
+xHello/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Hello.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/Hello.app/Default-Portrait@2x~ipad.pngd2c2ed4cea57b741^51f7f94cea57b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Portrait@2x~ipad.png000000000080d041^832"CpResource "Hello/Resources/splash/Default-Portrait@2x~ipad.png" "build/Hello.app/Default-Portrait@2x~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Portrait@2x~ipad.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"EE01064B-257B-4CE8-89C4-92C4485E8AE3-
+
+CCpResource Hello/Resources/splash/Default-Portrait~ipad.png build/Hello.app/Default-Portrait~ipad.png
+s391637580.928301
+e391637580.930865
+r1
+xCpResource
+xHello/Resources/splash/Default-Portrait~ipad.png
+xbuild/Hello.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Hello.app/Default-Portrait~ipad.png9cbfed4cea57b741^f6f0f94cea57b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default-Portrait~ipad.png000000000080d041^823"CpResource "Hello/Resources/splash/Default-Portrait~ipad.png" "build/Hello.app/Default-Portrait~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default-Portrait~ipad.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"E4336AE6-A609-438D-A330-7B1F5C536C3A-
+
+CCpResource Hello/Resources/splash/Default@2x~iphone.png build/Hello.app/Default@2x~iphone.png
+s391637580.929692
+e391637580.933759
+r1
+xCpResource
+xHello/Resources/splash/Default@2x~iphone.png
+xbuild/Hello.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/Hello.app/Default@2x~iphone.png6a18ee4cea57b741^7bf9f94cea57b741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default@2x~iphone.png000000000080d041^811"CpResource "Hello/Resources/splash/Default@2x~iphone.png" "build/Hello.app/Default@2x~iphone.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default@2x~iphone.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"8782D897-4FDE-48EF-892B-321E85ED7CF8-
+
+CCpResource Hello/Resources/splash/Default~iphone.png build/Hello.app/Default~iphone.png
+s391637580.932091
+e391637580.934546
+r1
+xCpResource
+xHello/Resources/splash/Default~iphone.png
+xbuild/Hello.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Hello.app/Default~iphone.png20b4ee4cea57b741^94fbf94cea57b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/Default~iphone.png000000000080d041^802"CpResource "Hello/Resources/splash/Default~iphone.png" "build/Hello.app/Default~iphone.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Hello/Resources/splash/Default~iphone.png" /Users/kevin/dev/cordova/shunt/build/Hello.app36"E5CD72FE-F29A-40CF-8BD1-D357349B5CE2-
+
+CCpResource Hello/config.xml build/Hello.app/config.xml
+s391637580.912064
+e391637580.916751
+r1
+xCpResource
+xHello/config.xml
+xbuild/Hello.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/Hello.app/config.xmld7a2e94cea57b741^31d0f94cea57b741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app/config.xml000000000080d041^738"CpResource Hello/config.xml build/Hello.app/config.xml    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Hello/config.xml /Users/kevin/dev/cordova/shunt/build/Hello.app36"5D838553-5428-4C63-8801-3B6F3AF040A1-
+
+CGenerateDSYMFile /Users/kevin/dev/cordova/hello/build/Hello.app.dSYM /Users/kevin/dev/cordova/hello/build/Hello.app/Hello
+s390755311.954126
+e390755312.035054
+r1
+xGenerateDSYMFile
+x/Users/kevin/dev/cordova/hello/build/Hello.app.dSYM
+x/Users/kevin/dev/cordova/hello/build/Hello.app/Hello
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Generate /Users/kevin/dev/cordova/hello/build/Hello.app.dSYM535df4ef734ab741^f9f808f0734ab741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/kevin/dev/cordova/hello/build/Hello.app.dSYM000000000080d041^744"GenerateDSYMFile build/Hello.app.dSYM build/Hello.app/Hello    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/kevin/dev/cordova/hello/build/Hello.app/Hello -o /Users/kevin/dev/cordova/hello/build/Hello.app.dSYM36"64C1A6D2-233A-49B5-910B-C1BA504DF4B1-
+
+CGenerateDSYMFile /Users/kevin/dev/cordova/shunt/build/Hello.app.dSYM /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello
+s391637582.569804
+e391637582.671719
+r1
+xGenerateDSYMFile
+x/Users/kevin/dev/cordova/shunt/build/Hello.app.dSYM
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/Hello
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Generate /Users/kevin/dev/cordova/shunt/build/Hello.app.dSYMd2fc914eea57b741^d8f5ab4eea57b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/kevin/dev/cordova/shunt/build/Hello.app.dSYM000000000080d041^744"GenerateDSYMFile build/Hello.app.dSYM build/Hello.app/Hello    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello -o /Users/kevin/dev/cordova/shunt/build/Hello.app.dSYM36"0E63D470-D0B6-4F94-8382-C693BA830FAB-
+
+CLd /Users/kevin/dev/cordova/hello/build/Hello.app/Hello normal i386
+s390755311.850913
+e390755311.947197
+r1
+xLd
+x/Users/kevin/dev/cordova/hello/build/Hello.app/Hello
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Link /Users/kevin/dev/cordova/hello/build/Hello.app/Hellod3f8d9ef734ab741^707bf2ef734ab741^---0#0#0#--1734"Ld build/Hello.app/Hello normal i386    cd /Users/kevin/dev/cordova/hello    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/kevin/dev/cordova/hello/build -F/Users/kevin/dev/cordova/hello/build -filelist /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/Hello.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/kevin/dev/cordova/hello/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/kevin/dev/cordova/hello/build/Hello.app/Hello36"A8F2DE56-9EBE-4ABF-9E7C-F1B1A05BD190-
+
+CLd /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello normal i386
+s391637582.399122
+e391637582.563083
+r1
+xLd
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/Hello
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Link /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello6e4d664eea57b741^0326904eea57b741^---0#0#0#--1734"Ld build/Hello.app/Hello normal i386    cd /Users/kevin/dev/cordova/shunt    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/kevin/dev/cordova/shunt/build -F/Users/kevin/dev/cordova/shunt/build -filelist /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/Hello.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/kevin/dev/cordova/shunt/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/kevin/dev/cordova/shunt/build/Hello.app/Hello36"6FB9021B-F6F4-4CBC-AD1F-2D8EB02A1B30-
+
+CPhaseScriptExecution "Copy www directory" /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+s390755310.693074
+e390755310.775789
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.068s
+ouser	0m0.030s
+osys	0m0.033s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'5af5b1ee734ab741^4299c6ee734ab741^-42"real	0m0.068suser	0m0.030ssys	0m0.033s3(21%IDEActivityLogMessage2@14"real	0m0.068s-390755310#1#14#-0#-----2@14"user	0m0.030s-390755310#15#14#-0#-----2@13"sys	0m0.033s-390755310#29#13#-0#-----0#0#0#--19690"PhaseScriptExecution "Copy www directory" build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh    cd /Users/kevin/dev/cordova/hello    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevin/dev/cordova/hello/build    setenv BUILD_ROOT /Users/kevin/dev/cordova/hello/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevin/dev/cordova/hello/build    setenv CACHE_ROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevin/dev/cordova/hello/build/Hello.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevin/dev/cordova/hello/build    setenv CONFIGURATION_TEMP_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Hello.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Hello.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Hello.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Hello.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/kevin/dev/cordova/hello/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Hello.app/Executables    setenv EXECUTABLE_FOLDER_PATH Hello.app    setenv EXECUTABLE_NAME Hello    setenv EXECUTABLE_PATH Hello.app/Hello    setenv FILE_LIST /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Hello.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kevin/dev/cordova/hello/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Hello.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Hello/Hello-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevin/dev/cordova/hello/build/include\" \"/Users/kevin/dev/cordova/hello/build/usr/local/lib/include\" \"/Users/kevin/dev/cordova/hello/build/UninstalledProducts/include\" \"/Users/kevin/dev/cordova/hello/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Hello/Hello-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Hello.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Hello.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Hello.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Hello.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Hello.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevin/dev/cordova/hello/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/Hello.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Hello.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal    setenv OBJROOT /Users/kevin/dev/cordova/hello/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Hello.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/PkgInfo    setenv PKGINFO_PATH Hello.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Hello.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Hello.app/PrivateHeaders    setenv PRODUCT_NAME Hello    setenv PRODUCT_SETTINGS_PATH /Users/kevin/dev/cordova/hello/Hello/Hello-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Hello    setenv PROJECT_DERIVED_FILE_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/DerivedSources    setenv PROJECT_DIR /Users/kevin/dev/cordova/hello    setenv PROJECT_FILE_PATH /Users/kevin/dev/cordova/hello/Hello.xcodeproj    setenv PROJECT_NAME Hello    setenv PROJECT_TEMP_DIR /Users/kevin/dev/cordova/hello/build/Hello.build    setenv PROJECT_TEMP_ROOT /Users/kevin/dev/cordova/hello/build    setenv PUBLIC_HEADERS_FOLDER_PATH Hello.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevin/dev/cordova/hello/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Hello.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevin/dev/cordova/hello/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Hello.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Hello.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/kevin/dev/cordova/hello    setenv SRCROOT /Users/kevin/dev/cordova/hello    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/kevin/dev/cordova/hello/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Hello    setenv TARGET_BUILD_DIR /Users/kevin/dev/cordova/hello/build    setenv TARGET_NAME Hello    setenv TARGET_TEMP_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_FILES_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_FILE_DIR /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_ROOT /Users/kevin/dev/cordova/hello/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Hello.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevin    setenv USER_APPS_DIR /Users/kevin/Applications    setenv USER_LIBRARY_DIR /Users/kevin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Hello.app/version.plist    setenv VERSION_INFO_BUILDER kevin    setenv VERSION_INFO_FILE Hello_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Hello  PROJECT:Hello-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Hello.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh36"16549890-36D6-400F-8D09-1FBCC3917D9E-
+
+CPhaseScriptExecution "Copy www directory" /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+s391637580.789460
+e391637580.904017
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.100s
+ouser	0m0.043s
+osys	0m0.052s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'fca8ca4cea57b741^9c6ce74cea57b741^-42"real	0m0.100suser	0m0.043ssys	0m0.052s3(21%IDEActivityLogMessage2@14"real	0m0.100s-391637580#1#14#-0#-----2@14"user	0m0.043s-391637580#15#14#-0#-----2@13"sys	0m0.052s-391637580#29#13#-0#-----0#0#0#--19690"PhaseScriptExecution "Copy www directory" build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh    cd /Users/kevin/dev/cordova/shunt    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevin/dev/cordova/shunt/build    setenv BUILD_ROOT /Users/kevin/dev/cordova/shunt/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevin/dev/cordova/shunt/build    setenv CACHE_ROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevin/dev/cordova/shunt/build/Hello.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevin/dev/cordova/shunt/build    setenv CONFIGURATION_TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Hello.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Hello.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Hello.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Hello.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/kevin/dev/cordova/shunt/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Hello.app/Executables    setenv EXECUTABLE_FOLDER_PATH Hello.app    setenv EXECUTABLE_NAME Hello    setenv EXECUTABLE_PATH Hello.app/Hello    setenv FILE_LIST /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Hello.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Hello.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Hello/Hello-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build/include\" \"/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include\" \"/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include\" \"/Users/kevin/dev/cordova/shunt/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Hello/Hello-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Hello.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Hello.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Hello.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Hello.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Hello.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal/i386/Hello.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Hello.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Objects-normal    setenv OBJROOT /Users/kevin/dev/cordova/shunt/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Hello.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/PkgInfo    setenv PKGINFO_PATH Hello.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Hello.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Hello.app/PrivateHeaders    setenv PRODUCT_NAME Hello    setenv PRODUCT_SETTINGS_PATH /Users/kevin/dev/cordova/shunt/Hello/Hello-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Hello    setenv PROJECT_DERIVED_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/DerivedSources    setenv PROJECT_DIR /Users/kevin/dev/cordova/shunt    setenv PROJECT_FILE_PATH /Users/kevin/dev/cordova/shunt/Hello.xcodeproj    setenv PROJECT_NAME Hello    setenv PROJECT_TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build    setenv PROJECT_TEMP_ROOT /Users/kevin/dev/cordova/shunt/build    setenv PUBLIC_HEADERS_FOLDER_PATH Hello.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Hello.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevin/dev/cordova/shunt/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Hello.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Hello.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/kevin/dev/cordova/shunt    setenv SRCROOT /Users/kevin/dev/cordova/shunt    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/kevin/dev/cordova/shunt/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Hello    setenv TARGET_BUILD_DIR /Users/kevin/dev/cordova/shunt/build    setenv TARGET_NAME Hello    setenv TARGET_TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_FILES_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build    setenv TEMP_ROOT /Users/kevin/dev/cordova/shunt/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Hello.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevin    setenv USER_APPS_DIR /Users/kevin/Applications    setenv USER_LIBRARY_DIR /Users/kevin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Hello.app/version.plist    setenv VERSION_INFO_BUILDER kevin    setenv VERSION_INFO_FILE Hello_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Hello  PROJECT:Hello-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Hello.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Script-304B58A110DAC018002A0835.sh36"2AB7EE78-7A5F-4FC9-8DA6-E467FFC66F51-
+
+CProcessInfoPlistFile /Users/kevin/dev/cordova/hello/build/Hello.app/Info.plist Hello/Hello-Info.plist
+s390755310.681036
+e390755310.683975
+r1
+xProcessInfoPlistFile
+x/Users/kevin/dev/cordova/hello/build/Hello.app/Info.plist
+xHello/Hello-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Hello/Hello-Info.pliste773aeee734ab741^9818afee734ab741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/kevin/dev/cordova/hello/Hello/Hello-Info.plist0000000000000000^789"ProcessInfoPlistFile build/Hello.app/Info.plist Hello/Hello-Info.plist    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-infoPlistUtility Hello/Hello-Info.plist -genpkginfo /Users/kevin/dev/cordova/hello/build/Hello.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevin/dev/cordova/hello/build/Hello.app/Info.plist36"A663B643-98F0-46DA-9207-CEFAFB369773-
+
+CProcessInfoPlistFile /Users/kevin/dev/cordova/shunt/build/Hello.app/Info.plist Hello/Hello-Info.plist
+s391637580.778680
+e391637580.781630
+r1
+xProcessInfoPlistFile
+x/Users/kevin/dev/cordova/shunt/build/Hello.app/Info.plist
+xHello/Hello-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Hello/Hello-Info.plist3271c74cea57b741^0919c84cea57b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Hello-Info.plist0000000000000000^789"ProcessInfoPlistFile build/Hello.app/Info.plist Hello/Hello-Info.plist    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-infoPlistUtility Hello/Hello-Info.plist -genpkginfo /Users/kevin/dev/cordova/shunt/build/Hello.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevin/dev/cordova/shunt/build/Hello.app/Info.plist36"F10C7683-C687-45C9-968F-9267B98D719A-
+
+CProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s390755311.569438
+e390755311.780932
+r1
+xProcessPCH
+x/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.pth
+xHello/Hello-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Hello/Hello-Prefix.pcha3e891ef734ab741^bbecc7ef734ab741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/kevin/dev/cordova/hello/Hello/Hello-Prefix.pch0000000000000000^3400"ProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/hello    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/hello/build/include -I/Users/kevin/dev/cordova/hello/build/usr/local/lib/include -I/Users/kevin/dev/cordova/hello/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/hello/build -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/hello/build --serialize-diagnostics /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.dia -c /Users/kevin/dev/cordova/hello/Hello/Hello-Prefix.pch -o /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-dpobgfhoealwjzeiugscwurgtlop/Hello-Prefix.pch.d36"D91D28E3-A8C1-4499-A9E7-DB6CEF9EE0E5-
+
+CProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s384125746.126396
+e384125746.337399
+r1
+xProcessPCH
+x/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.pth
+xHello/Hello-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Hello/Hello-Prefix.pch857c20324be5b641^286156324be5b641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/kevin/dev/cordova/hello/Hello/Hello-Prefix.pch0000000000000000^3422"ProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/hello    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/hello/build/include -I/Users/kevin/dev/cordova/hello/build/usr/local/lib/include -I/Users/kevin/dev/cordova/hello/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/hello/build -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/hello/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/hello/build --serialize-diagnostics /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.dia -c /Users/kevin/dev/cordova/hello/Hello/Hello-Prefix.pch -o /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-ebeigzvjpntkhdfhqpxozasxwgxw/Hello-Prefix.pch.d36"F55B6DB1-7106-4239-A080-AF33DE29D31B-
+
+CProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391637582.099594
+e391637582.320246
+r1
+xProcessPCH
+x/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.pth
+xHello/Hello-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Hello/Hello-Prefix.pch27a0194eea57b741^c6fb514eea57b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/kevin/dev/cordova/shunt/Hello/Hello-Prefix.pch0000000000000000^3400"ProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.pth Hello/Hello-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/Hello-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Hello.build/Debug-iphonesimulator/Hello.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build --serialize-diagnostics /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.dia -c /Users/kevin/dev/cordova/shunt/Hello/Hello-Prefix.pch -o /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Hello-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Hello-Prefix.pch.d36"D18A31BE-F414-454D-A02E-E56FA449FE6E-
+
+CTouch /Users/kevin/dev/cordova/hello/build/Hello.app
+s390755312.043445
+e390755312.048564
+r1
+xTouch
+x/Users/kevin/dev/cordova/hello/build/Hello.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Touch /Users/kevin/dev/cordova/hello/build/Hello.app3f380bf0734ab741^c16e0cf0734ab741^---0#0#0#--567"Touch build/Hello.app    cd /Users/kevin/dev/cordova/hello    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /usr/bin/touch -c /Users/kevin/dev/cordova/hello/build/Hello.app36"2391CD05-7773-4944-A30C-0909154E692E-
+
+CTouch /Users/kevin/dev/cordova/shunt/build/Hello.app
+s391637582.679385
+e391637582.684086
+r1
+xTouch
+x/Users/kevin/dev/cordova/shunt/build/Hello.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Touch /Users/kevin/dev/cordova/shunt/build/Hello.appb004ae4eea57b741^2120af4eea57b741^---0#0#0#--567"Touch build/Hello.app    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /usr/bin/touch -c /Users/kevin/dev/cordova/shunt/build/Hello.app36"A563B62B-CA28-40CF-A6C4-360978FD16AD-
+

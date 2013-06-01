@@ -1,0 +1,59 @@
+<div id="menu-top" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+        <div id="add-item" class="pull-right">
+            <i class="icon-plus icon-white"></i>
+        </div>
+        <div class="container">
+            <h1>Téléchargements</h1>
+        </div>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div class="row">
+
+        <!-- dl-stats -->
+        <div id="dl-stats" class="span12">
+            <div class="dl-stats-left">
+                <p>
+                    <span class="bolder">Download :</span><br/>
+                    {{infos.dlspeed}} Ko/s. ({{infos.dltotal}} Go)
+                </p>
+            </div>
+            <div class="dl-stats-right">
+                <p>
+                    <span class="bolder">Upload :</span><br/>
+                    {{infos.ulspeed}} Ko/s. ({{infos.ultotal}} Go)
+                </p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="dl-stats-files">
+                <p><span class="bolder">Total :</span> {{infos.files.length}} fichier(s)</p>
+            </div>
+        </div>
+
+        <!-- dl-search -->
+        <div id="dl-search">
+            <div class="input-prepend input-append">
+                <span class="add-on add-on-left"><i class="icon-search"></i></span>
+                <input id="search-input" type="text" placeholder="rechercher...">
+                <span class="add-on add-on-right"><i class="icon-remove"></i></span>
+            </div>
+        </div>
+
+        <!-- dl-list -->
+        <div id="dl-list">
+            <p ng-show="!infos.files.length">Empty list!</p>
+            <ul>
+            	<li ng-repeat="file in infos.files" class="dl-item {{file.status_class}}">
+                    <span class="pull-right chevron"><i class="icon-chevron-right icon-white"></i></span>
+                    <span class="pull-left status-sign"><i class="icon-{{file.icon_class}}"></i></span>
+                    <h2>{{file.title}}</h2>
+                    <div class="progress-bar">
+                        <div class="progress-inner" style="width:{{file.progress}}%;"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

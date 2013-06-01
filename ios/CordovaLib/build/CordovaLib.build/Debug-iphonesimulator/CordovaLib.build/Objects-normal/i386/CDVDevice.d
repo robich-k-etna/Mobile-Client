@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVDevice.m \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDV.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVAvailability.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVPlugin.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVPluginResult.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSMutableArray+QueueAdditions.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVCommandDelegate.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVInvokedUrlCommand.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVViewController.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVWhitelist.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVScreenOrientationDelegate.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVURLProtocol.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVAccelerometer.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVBattery.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVCamera.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVCapture.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVFile.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVConnection.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVReachability.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVContact.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVContacts.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVDebug.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVDebugConsole.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVDevice.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVFileTransfer.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVLocation.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVNotification.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVSound.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVSplashScreen.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVLocalStorage.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVInAppBrowser.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSArray+Comparisons.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSData+Base64.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSDictionary+Extensions.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/UIDevice+Extensions.h \
+  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVJSON.h
