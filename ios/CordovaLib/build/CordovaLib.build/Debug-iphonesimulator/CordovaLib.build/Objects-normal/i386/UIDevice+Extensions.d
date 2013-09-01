@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/UIDevice+Extensions.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/UIDevice+Extensions.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/UIDevice+Extensions.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/UIDevice+Extensions.h

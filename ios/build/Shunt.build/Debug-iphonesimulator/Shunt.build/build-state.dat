@@ -2,36 +2,36 @@ TShunt
 v5
 r1
 cCheck dependencies
-cProcessInfoPlistFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/Info.plist Shunt/Shunt-Info.plist
-cPhaseScriptExecution "Copy www directory" /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh
-cCpResource Shunt/Resources/icons/icon-72.png build/Shunt.app/icon-72.png
+cProcessInfoPlistFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Info.plist Shunt/Shunt-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh
 cCpResource Shunt/Resources/icons/icon.png build/Shunt.app/icon.png
 cCpResource Shunt/config.xml build/Shunt.app/config.xml
-cCpResource Shunt/Resources/Capture.bundle build/Shunt.app/Capture.bundle
+cCpResource Shunt/Resources/icons/icon-72.png build/Shunt.app/icon-72.png
 cCpResource Shunt/Resources/icons/icon@2x.png build/Shunt.app/icon@2x.png
-cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/es.lproj/Localizable.strings Shunt/Resources/es.lproj/Localizable.strings
-cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/en.lproj/Localizable.strings Shunt/Resources/en.lproj/Localizable.strings
-cCompileXIB /Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.xib
-cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/de.lproj/Localizable.strings Shunt/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/se.lproj/Localizable.strings Shunt/Resources/se.lproj/Localizable.strings
+cCpResource Shunt/Resources/Capture.bundle build/Shunt.app/Capture.bundle
+cCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/en.lproj/Localizable.strings Shunt/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/es.lproj/Localizable.strings Shunt/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib
+cCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/se.lproj/Localizable.strings Shunt/Resources/se.lproj/Localizable.strings
+cCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/de.lproj/Localizable.strings Shunt/Resources/de.lproj/Localizable.strings
 cCpResource Shunt/Resources/splash/Default-Landscape@2x~ipad.png build/Shunt.app/Default-Landscape@2x~ipad.png
 cCpResource Shunt/Resources/splash/Default-Landscape~ipad.png build/Shunt.app/Default-Landscape~ipad.png
-cCpResource Shunt/Resources/splash/Default-Portrait@2x~ipad.png build/Shunt.app/Default-Portrait@2x~ipad.png
 cCpResource Shunt/Resources/splash/Default-Portrait~ipad.png build/Shunt.app/Default-Portrait~ipad.png
-cCpResource Shunt/Resources/splash/Default~iphone.png build/Shunt.app/Default~iphone.png
+cCpResource Shunt/Resources/splash/Default-Portrait@2x~ipad.png build/Shunt.app/Default-Portrait@2x~ipad.png
 cCpResource Shunt/Resources/splash/Default@2x~iphone.png build/Shunt.app/Default@2x~iphone.png
+cCpResource Shunt/Resources/splash/Default~iphone.png build/Shunt.app/Default~iphone.png
 cCpResource Shunt/Resources/splash/Default-568h@2x~iphone.png build/Shunt.app/Default-568h@2x~iphone.png
-cProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch.pth Shunt/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o /Users/kevin/dev/cordova/shunt/Shunt/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o /Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o /Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt normal i386
-cGenerateDSYMFile /Users/kevin/dev/cordova/shunt/build/Shunt.app.dSYM /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt
-cTouch /Users/kevin/dev/cordova/shunt/build/Shunt.app
+cProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.pth Shunt/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o /Users/kevin/ETNA/shunt/ios/Shunt/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o /Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt normal i386
+cGenerateDSYMFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYM /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt
+cTouch /Users/kevin/ETNA/shunt/ios/build/Shunt.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c000000005170F27C0000000000000110
-t1366356604
+c0000000051BDCB850000000000000110
+t1371392901
 s272
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
@@ -108,6 +108,291 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 c000000005106E94F0000000000AB6230
 t1359407439
 s11231792
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.h
+c0000000051AA182300000000000005AF
+t1370101795
+s1455
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m
+c0000000051AA18230000000000001222
+t1370101795
+s4642
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.h
+c0000000051AA182300000000000004CB
+t1370101795
+s1227
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m
+c0000000051AA18230000000000001266
+t1370101795
+s4710
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib
+c0000000051AA18230000000000001759
+t1370101795
+s5977
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/Capture.bundle
+c0000000051AA1823000000000000030E
+t1370101795
+s782
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/de.lproj/Localizable.strings
+c0000000051AA18230000000000000485
+t1370101795
+s1157
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/en.lproj/Localizable.strings
+c0000000051AA18230000000000000470
+t1370101795
+s1136
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/es.lproj/Localizable.strings
+c0000000051AA1823000000000000047D
+t1370101795
+s1149
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/icons/icon-72.png
+c0000000051AA18230000000000001350
+t1370101795
+s4944
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/icons/icon.png
+c0000000051AA18230000000000000F3E
+t1370101795
+s3902
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/icons/icon@2x.png
+c0000000051AA18230000000000001EBD
+t1370101795
+s7869
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/se.lproj/Localizable.strings
+c0000000051AA18230000000000000471
+t1370101795
+s1137
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-568h@2x~iphone.png
+c0000000051AA182300000000000074F8
+t1370101795
+s29944
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051AA18230000000000012735
+t1370101795
+s75573
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Landscape~ipad.png
+c0000000051AA1823000000000000817B
+t1370101795
+s33147
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051AA18230000000000012171
+t1370101795
+s74097
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Portrait~ipad.png
+c0000000051AA18230000000000007F9A
+t1370101795
+s32666
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default@2x~iphone.png
+c0000000051AA18230000000000007323
+t1370101795
+s29475
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default~iphone.png
+c0000000051AA1823000000000000289A
+t1370101795
+s10394
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/Shunt-Prefix.pch
+c0000000051AA182300000000000003BB
+t1370101795
+s955
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/config.xml
+c0000000051AA18230000000000000B14
+t1370101795
+s2836
+
+N/Users/kevin/ETNA/shunt/ios/Shunt/main.m
+c0000000051AA18230000000000000457
+t1370101795
+s1111
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYM
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Capture.bundle
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default~iphone.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Info.plist
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/MainViewController.nib
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/PkgInfo
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/config.xml
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/icon-72.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/icon.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/icon@2x.png
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/Shunt.LinkFileList
+c000000005223B65E0000000000000156
+t1378072158
+s342
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh
+c000000005223B65E000000000000042B
+t1378072158
+s1067
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVAvailability.h
+c000000005223B5D30000000000000AF8
+t1378072019
+s2808
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVCommandDelegate.h
+c000000005223B5D3000000000000095D
+t1378072019
+s2397
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+c000000005223B5D30000000000000473
+t1378072019
+s1139
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVCommandQueue.h
+c000000005223B5D300000000000005AA
+t1378072019
+s1450
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+c000000005223B5D30000000000000907
+t1378072019
+s2311
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVPlugin.h
+c000000005223B5D300000000000008CC
+t1378072019
+s2252
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVPluginResult.h
+c000000005223B5D30000000000000A5D
+t1378072019
+s2653
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+c000000005223B5D30000000000000408
+t1378072019
+s1032
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVViewController.h
+c000000005223B5D30000000000000B1D
+t1378072019
+s2845
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVWhitelist.h
+c000000005223B5D3000000000000052D
+t1378072019
+s1325
+
+N/Users/kevin/ETNA/shunt/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c000000005223B5D300000000000003A0
+t1378072019
+s928
+
+N/Users/kevin/ETNA/shunt/ios/build/libCordova.a
+c000000005223B65E00000000003481A0
+t1378072158
+s3441056
 
 N/Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.h
 c00000000000000000000000000000000
@@ -224,10 +509,20 @@ c00000000000000000000000000000000
 t2
 s0
 
+N/Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.h
+c0000000051A79EC000000000000005AF
+t1369939648
+s1455
+
 N/Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m
 c0000000051A79EC00000000000001222
 t1369939648
 s4642
+
+N/Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.h
+c0000000051A79EC000000000000004CB
+t1369939648
+s1227
 
 N/Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.m
 c0000000051A79EC00000000000001266
@@ -440,58 +735,58 @@ t1369949458
 s1067
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVAvailability.h
-c0000000051A7C40D0000000000000AF8
-t1369949197
+c0000000051A7C5110000000000000AF8
+t1369949457
 s2808
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVCommandDelegate.h
-c0000000051A7C40D000000000000095D
-t1369949197
+c0000000051A7C511000000000000095D
+t1369949457
 s2397
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVCommandDelegateImpl.h
-c0000000051A7C40D0000000000000473
-t1369949197
+c0000000051A7C5110000000000000473
+t1369949457
 s1139
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVCommandQueue.h
-c0000000051A7C40D00000000000005AA
-t1369949197
+c0000000051A7C51100000000000005AA
+t1369949457
 s1450
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVInvokedUrlCommand.h
-c0000000051A7C40D0000000000000907
-t1369949197
+c0000000051A7C5110000000000000907
+t1369949457
 s2311
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVPlugin.h
-c0000000051A7C40D00000000000008CC
-t1369949197
+c0000000051A7C51100000000000008CC
+t1369949457
 s2252
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVPluginResult.h
-c0000000051A7C40D0000000000000A5D
-t1369949197
+c0000000051A7C5110000000000000A5D
+t1369949457
 s2653
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVScreenOrientationDelegate.h
-c0000000051A7C40D0000000000000408
-t1369949197
+c0000000051A7C5110000000000000408
+t1369949457
 s1032
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVViewController.h
-c0000000051A7C40D0000000000000B1D
-t1369949197
+c0000000051A7C5110000000000000B1D
+t1369949457
 s2845
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVWhitelist.h
-c0000000051A7C40D000000000000052D
-t1369949197
+c0000000051A7C511000000000000052D
+t1369949457
 s1325
 
 N/Users/kevin/dev/cordova/shunt/build/include/Cordova/NSMutableArray+QueueAdditions.h
-c0000000051A7C40D00000000000003A0
-t1369949197
+c0000000051A7C51100000000000003A0
+t1369949457
 s928
 
 N/Users/kevin/dev/cordova/shunt/build/libCordova.a
@@ -500,6 +795,10 @@ t1369949458
 s3441424
 
 N/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-bcfzamxrxayzjeecaqzbtwiksccx/Shunt-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.pth
 t2
 s0
 
@@ -513,13 +812,33 @@ t2
 s0
 
 NShunt/Shunt-Info.plist
-c0000000051A7C403000000000000069B
-t1369949187
+c0000000051AA1823000000000000069B
+t1370101795
 s1691
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd2c87f92fc57b741^21938092fc57b741^---0#1#0#--18"Check dependencies36"184104EB-44FA-4890-B677-FA1037396838-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9da1bcdeedd3b741^425cbddeedd3b741^---0#1#0#--18"Check dependencies36"9B2504EF-4EA2-4024-89ED-C3CD94653838-
+
+CCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o /Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399764959.915960
+e399764959.975493
+r1
+xCompileC
+xbuild/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o
+x/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m279feadfedd3b741^41b9f9dfedd3b741^-641"/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/kevin/ETNA/shunt/ios/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-399764959#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-399764959#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVViewController.h0000000000000000^46#46#46#46#1832#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@71"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m0000000000000000^67#24#67#24#2262#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@71"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m0000000000000000^3328"CompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o Shunt/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/ETNA/shunt/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/include -I/Users/kevin/ETNA/shunt/ios/build/usr/local/lib/include -I/Users/kevin/ETNA/shunt/ios/build/UninstalledProducts/include -I/Users/kevin/ETNA/shunt/ios/build -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/ETNA/shunt/ios/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.dia -c /Users/kevin/ETNA/shunt/ios/Shunt/Classes/AppDelegate.m -o /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o36"7BC8A783-29BE-48BF-A026-BC949A5A6DB4-
 
 CCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o /Users/kevin/dev/cordova/shunt/Hello/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391642000.255075
@@ -561,6 +880,19 @@ o                                              ^
 o1 warning generated.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m8cdcb793fc57b741^c216c793fc57b741^-647"/Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m:68:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/kevin/dev/cordova/shunt/build/include/Cordova/CDVViewController.h:47:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-391642259#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-391642259#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file://localhost/Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVViewController.h0000000000000000^46#46#46#46#1832#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@74"file://localhost/Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m0000000000000000^67#24#67#24#2262#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@74"file://localhost/Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m0000000000000000^3376"CompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o Shunt/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.dia -c /Users/kevin/dev/cordova/shunt/Shunt/Classes/AppDelegate.m -o /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/AppDelegate.o36"CED8E09A-C081-4C76-9D1F-FAC6C81FF1A2-
 
+CCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399764959.915982
+e399764959.968448
+r1
+xCompileC
+xbuild/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o
+x/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m179feadfedd3b741^f2ebf7dfedd3b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m0000000000000000^3370"CompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o Shunt/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/ETNA/shunt/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/include -I/Users/kevin/ETNA/shunt/ios/build/usr/local/lib/include -I/Users/kevin/ETNA/shunt/ios/build/UninstalledProducts/include -I/Users/kevin/ETNA/shunt/ios/build -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/ETNA/shunt/ios/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.dia -c /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.m -o /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o36"E43E4754-A864-4ED2-B579-093B7AE5F7F7-
+
 CCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391642000.255078
 e391642000.312540
@@ -586,6 +918,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.ma4e2b793fc57b741^5802c593fc57b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.m0000000000000000^3418"CompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o Shunt/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.dia -c /Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.m -o /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/MainViewController.o36"EF1899C1-BC51-4458-A778-688E041C9872-
+
+CCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o /Users/kevin/ETNA/shunt/ios/Shunt/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399764959.915948
+e399764959.936238
+r1
+xCompileC
+xbuild/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o
+x/Users/kevin/ETNA/shunt/ios/Shunt/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Compile /Users/kevin/ETNA/shunt/ios/Shunt/main.ma5a1eadfedd3b741^19adefdfedd3b741^---0#0#0#-19%DVTDocumentLocation2@56"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/main.m0000000000000000^3270"CompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o Shunt/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/ETNA/shunt/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/include -I/Users/kevin/ETNA/shunt/ios/build/usr/local/lib/include -I/Users/kevin/ETNA/shunt/ios/build/UninstalledProducts/include -I/Users/kevin/ETNA/shunt/ios/build -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/ETNA/shunt/ios/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.dia -c /Users/kevin/ETNA/shunt/ios/Shunt/main.m -o /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o36"9A42E230-7FA5-4F20-AE26-5183E2C35B34-
 
 CCompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o /Users/kevin/dev/cordova/shunt/Hello/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391642000.255070
@@ -613,6 +958,15 @@ xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/kevin/dev/cordova/shunt/Shunt/main.m9cdcb793fc57b741^13b5bc93fc57b741^---0#0#0#-19%DVTDocumentLocation2@59"file://localhost/Users/kevin/dev/cordova/shunt/Shunt/main.m0000000000000000^3318"CompileC build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o Shunt/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build -include /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch -MMD -MT dependencies -MF /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.dia -c /Users/kevin/dev/cordova/shunt/Shunt/main.m -o /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/main.o36"F85415D0-4A0D-4593-889E-B50D55A269C8-
 
+CCompileXIB /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib
+s399764958.879715
+e399764959.681698
+r1
+xCompileXIB
+x/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib
+o2013-09-01 23:49:19.356 Interface Builder Cocoa Touch Tool[71498:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compiling /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib2f51e1deedd3b741^6286aedfedd3b741^-238"2013-09-01 23:49:19.356 Interface Builder Cocoa Touch Tool[71498:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib0000000000000000^1097"CompileXIB Shunt/Classes/MainViewController.xib    cd /Users/kevin/ETNA/shunt/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/MainViewController.nib /Users/kevin/ETNA/shunt/ios/Shunt/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"6D29AAC8-1AD6-4BC8-8154-21571BB7D37F-
+
 CCompileXIB /Users/kevin/dev/cordova/shunt/Hello/Classes/MainViewController.xib
 s391641999.148230
 e391642000.009000
@@ -630,6 +984,42 @@ xCompileXIB
 x/Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.xib
 o2013-05-30 23:30:59.161 Interface Builder Cocoa Touch Tool[17982:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.xib88d7a592fc57b741^d8d37a93fc57b741^-238"2013-05-30 23:30:59.161 Interface Builder Cocoa Touch Tool[17982:f07] CFPreferences: user home directory at file://localhost/Users/kevin/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.xib0000000000000000^1106"CompileXIB Shunt/Classes/MainViewController.xib    cd /Users/kevin/dev/cordova/shunt    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/dev/cordova/shunt/build/Shunt.app/MainViewController.nib /Users/kevin/dev/cordova/shunt/Shunt/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"E7356C3D-5050-4FCE-8C29-F6A9E97CEA15-
+
+CCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/de.lproj/Localizable.strings Shunt/Resources/de.lproj/Localizable.strings
+s399764958.882616
+e399764958.890611
+r1
+xCopyStringsFile
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/de.lproj/Localizable.strings
+xShunt/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Shunt/Resources/de.lproj/Localizable.stringsb70ae2deedd3b741^8bffe3deedd3b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Resources/de.lproj/Localizable.strings0000000000000000^770"CopyStringsFile build/Shunt.app/de.lproj/Localizable.strings Shunt/Resources/de.lproj/Localizable.strings    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/ETNA/shunt/ios/build/Shunt.app/de.lproj -- Shunt/Resources/de.lproj/Localizable.strings36"5EA195A0-6B30-4970-8BB4-EB73FEF9B0D1-
+
+CCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/en.lproj/Localizable.strings Shunt/Resources/en.lproj/Localizable.strings
+s399764958.879047
+e399764958.888417
+r1
+xCopyStringsFile
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/en.lproj/Localizable.strings
+xShunt/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Shunt/Resources/en.lproj/Localizable.stringsc137e1deedd3b741^d26fe3deedd3b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Resources/en.lproj/Localizable.strings0000000000000000^770"CopyStringsFile build/Shunt.app/en.lproj/Localizable.strings Shunt/Resources/en.lproj/Localizable.strings    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/ETNA/shunt/ios/build/Shunt.app/en.lproj -- Shunt/Resources/en.lproj/Localizable.strings36"F4A3AD02-80B8-44E0-B953-651A7933C5B9-
+
+CCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/es.lproj/Localizable.strings Shunt/Resources/es.lproj/Localizable.strings
+s399764958.879084
+e399764958.889513
+r1
+xCopyStringsFile
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/es.lproj/Localizable.strings
+xShunt/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Shunt/Resources/es.lproj/Localizable.strings8e3be1deedd3b741^feb6e3deedd3b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Resources/es.lproj/Localizable.strings0000000000000000^770"CopyStringsFile build/Shunt.app/es.lproj/Localizable.strings Shunt/Resources/es.lproj/Localizable.strings    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/ETNA/shunt/ios/build/Shunt.app/es.lproj -- Shunt/Resources/es.lproj/Localizable.strings36"EF7919B7-2994-45B9-9FC4-EC92775CC61B-
+
+CCopyStringsFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/se.lproj/Localizable.strings Shunt/Resources/se.lproj/Localizable.strings
+s399764958.882604
+e399764958.891749
+r1
+xCopyStringsFile
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/se.lproj/Localizable.strings
+xShunt/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Shunt/Resources/se.lproj/Localizable.strings6a18e2deedd3b741^5649e4deedd3b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Resources/se.lproj/Localizable.strings0000000000000000^770"CopyStringsFile build/Shunt.app/se.lproj/Localizable.strings Shunt/Resources/se.lproj/Localizable.strings    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/kevin/ETNA/shunt/ios/build/Shunt.app/se.lproj -- Shunt/Resources/se.lproj/Localizable.strings36"3BEED852-5A02-48F5-B27B-2AFCF521F2DD-
 
 CCopyStringsFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/de.lproj/Localizable.strings Hello/Resources/de.lproj/Localizable.strings
 s391641999.155038
@@ -812,112 +1202,121 @@ xbuild/Shunt.app/config.xml
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/Shunt.app/config.xmlbef9258ffb57b741^2b87268ffb57b741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/config.xml000000000080d041^738"CpResource Hello/config.xml build/Shunt.app/config.xml    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Hello/config.xml /Users/kevin/dev/cordova/shunt/build/Shunt.app36"04691FF9-04ED-4B5F-AA74-E8EA366D5CED-
 
 CCpResource Shunt/Resources/Capture.bundle build/Shunt.app/Capture.bundle
-s391642258.646897
-e391642258.656385
+s399764958.879038
+e399764958.888674
 r1
 xCpResource
 xShunt/Resources/Capture.bundle
 xbuild/Shunt.app/Capture.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/Shunt.app/Capture.bundlea8c8a592fc57b741^4e09a892fc57b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Capture.bundle000000000080d041^770"CpResource Shunt/Resources/Capture.bundle build/Shunt.app/Capture.bundle    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Shunt/Resources/Capture.bundle /Users/kevin/dev/cordova/shunt/build/Shunt.app36"4D4D5D3C-7047-4BAB-B81C-20C6F5721407-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy build/Shunt.app/Capture.bundlee030e1deedd3b741^cb80e3deedd3b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Capture.bundle000000000080d041^761"CpResource Shunt/Resources/Capture.bundle build/Shunt.app/Capture.bundle    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/ETNA/shunt/ios/Shunt/Resources/Capture.bundle /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"476F4D3F-FA35-4250-B0AA-B6A5E182798D-
 
 CCpResource Shunt/Resources/icons/icon-72.png build/Shunt.app/icon-72.png
-s391642258.646846
-e391642258.655133
+s399764958.879011
+e399764958.884848
 r1
 xCpResource
 xShunt/Resources/icons/icon-72.png
 xbuild/Shunt.app/icon-72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Shunt.app/icon-72.pngc9cca592fc57b741^ccb6a792fc57b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/icon-72.png000000000080d041^773"CpResource Shunt/Resources/icons/icon-72.png build/Shunt.app/icon-72.png    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Shunt/Resources/icons/icon-72.png /Users/kevin/dev/cordova/shunt/build/Shunt.app36"7EC4AD9E-E379-40E3-8A98-33DFE52ABE5D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Shunt.app/icon-72.png0135e1deedd3b741^4485e2deedd3b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/icon-72.png000000000080d041^764"CpResource Shunt/Resources/icons/icon-72.png build/Shunt.app/icon-72.png    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/ETNA/shunt/ios/Shunt/Resources/icons/icon-72.png /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"AD77817C-FC60-4DBB-94E2-A3663F21F442-
 
 CCpResource Shunt/Resources/icons/icon.png build/Shunt.app/icon.png
-s391642258.646862
-e391642258.649668
+s399764958.878980
+e399764958.881452
 r1
 xCpResource
 xShunt/Resources/icons/icon.png
 xbuild/Shunt.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Copy build/Shunt.app/icon.png8ac7a592fc57b741^6150a692fc57b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/icon.png000000000080d041^764"CpResource Shunt/Resources/icons/icon.png build/Shunt.app/icon.png    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Shunt/Resources/icons/icon.png /Users/kevin/dev/cordova/shunt/build/Shunt.app36"6189C29C-40A8-481F-B1BD-6190E21A4E36-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Copy build/Shunt.app/icon.png992de1deedd3b741^6ea7e1deedd3b741^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/icon.png000000000080d041^755"CpResource Shunt/Resources/icons/icon.png build/Shunt.app/icon.png    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/ETNA/shunt/ios/Shunt/Resources/icons/icon.png /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"3A46D729-2011-4F8F-840D-040CC7A1BF83-
 
 CCpResource Shunt/Resources/icons/icon@2x.png build/Shunt.app/icon@2x.png
-s391642258.646907
-e391642258.651661
+s399764958.879020
+e399764958.887029
 r1
 xCpResource
 xShunt/Resources/icons/icon@2x.png
 xbuild/Shunt.app/icon@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Shunt.app/icon@2x.png54c8a592fc57b741^52d3a692fc57b741^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/icon@2x.png000000000080d041^779"CpResource "Shunt/Resources/icons/icon@2x.png" "build/Shunt.app/icon@2x.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/icons/icon@2x.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"F9F91131-30EF-4899-8A1B-4F5DEAE5ADCD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Shunt.app/icon@2x.png603ae1deedd3b741^c615e3deedd3b741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/icon@2x.png000000000080d041^770"CpResource "Shunt/Resources/icons/icon@2x.png" "build/Shunt.app/icon@2x.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/icons/icon@2x.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"060A9A35-9502-4711-A611-93B0A3BAFFBD-
 
 CCpResource Shunt/Resources/splash/Default-568h@2x~iphone.png build/Shunt.app/Default-568h@2x~iphone.png
-s391642258.660899
-e391642258.667728
+s399764958.892883
+e399764958.899565
 r1
 xCpResource
 xShunt/Resources/splash/Default-568h@2x~iphone.png
 xbuild/Shunt.app/Default-568h@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Shunt.app/Default-568h@2x~iphone.png6f46a992fc57b741^5af0aa92fc57b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default-568h@2x~iphone.png000000000080d041^826"CpResource "Shunt/Resources/splash/Default-568h@2x~iphone.png" "build/Shunt.app/Default-568h@2x~iphone.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default-568h@2x~iphone.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"3192B959-7ED0-4B3C-A03A-F3E11CFD5147-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Shunt.app/Default-568h@2x~iphone.pngaeb8e4deedd3b741^0057e6deedd3b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-568h@2x~iphone.png000000000080d041^817"CpResource "Shunt/Resources/splash/Default-568h@2x~iphone.png" "build/Shunt.app/Default-568h@2x~iphone.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-568h@2x~iphone.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"D927A391-7A84-445C-BC5F-1D3E319ADA3B-
 
 CCpResource Shunt/Resources/splash/Default-Landscape@2x~ipad.png build/Shunt.app/Default-Landscape@2x~ipad.png
-s391642258.652796
-e391642258.660782
+s399764958.886047
+e399764958.892734
 r1
 xCpResource
 xShunt/Resources/splash/Default-Landscape@2x~ipad.png
 xbuild/Shunt.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Shunt.app/Default-Landscape@2x~ipad.png0536a792fc57b741^2429a992fc57b741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default-Landscape@2x~ipad.png000000000080d041^835"CpResource "Shunt/Resources/splash/Default-Landscape@2x~ipad.png" "build/Shunt.app/Default-Landscape@2x~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default-Landscape@2x~ipad.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"4001E589-A929-44CB-860A-7BC55BB33684-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Shunt.app/Default-Landscape@2x~ipad.png78f1e2deedd3b741^378ae4deedd3b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Landscape@2x~ipad.png000000000080d041^826"CpResource "Shunt/Resources/splash/Default-Landscape@2x~ipad.png" "build/Shunt.app/Default-Landscape@2x~ipad.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Landscape@2x~ipad.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"FFE8A931-90C1-4BB6-8D83-1487C551276C-
 
 CCpResource Shunt/Resources/splash/Default-Landscape~ipad.png build/Shunt.app/Default-Landscape~ipad.png
-s391642258.656280
-e391642258.661835
+s399764958.888215
+e399764958.893770
 r1
 xCpResource
 xShunt/Resources/splash/Default-Landscape~ipad.png
 xbuild/Shunt.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Shunt.app/Default-Landscape~ipad.png371aa892fc57b741^376ea992fc57b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default-Landscape~ipad.png000000000080d041^826"CpResource "Shunt/Resources/splash/Default-Landscape~ipad.png" "build/Shunt.app/Default-Landscape~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default-Landscape~ipad.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"E798BA7A-3C06-4BC5-BD0D-3B1E4B0BA983-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Shunt.app/Default-Landscape~ipad.pngf985e3deedd3b741^a3cee4deedd3b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Landscape~ipad.png000000000080d041^817"CpResource "Shunt/Resources/splash/Default-Landscape~ipad.png" "build/Shunt.app/Default-Landscape~ipad.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Landscape~ipad.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"87EB116D-7FED-4883-84E9-8713F40C9C68-
 
 CCpResource Shunt/Resources/splash/Default-Portrait@2x~ipad.png build/Shunt.app/Default-Portrait@2x~ipad.png
-s391642258.656286
-e391642258.662995
+s399764958.889599
+e399764958.895056
 r1
 xCpResource
 xShunt/Resources/splash/Default-Portrait@2x~ipad.png
 xbuild/Shunt.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/Shunt.app/Default-Portrait@2x~ipad.png3e24a892fc57b741^c3baa992fc57b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default-Portrait@2x~ipad.png000000000080d041^832"CpResource "Shunt/Resources/splash/Default-Portrait@2x~ipad.png" "build/Shunt.app/Default-Portrait@2x~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default-Portrait@2x~ipad.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"2A2C9E90-B5A2-4050-AEDA-97DD27B8083A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/Shunt.app/Default-Portrait@2x~ipad.png23dde3deedd3b741^de21e5deedd3b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Portrait@2x~ipad.png000000000080d041^823"CpResource "Shunt/Resources/splash/Default-Portrait@2x~ipad.png" "build/Shunt.app/Default-Portrait@2x~ipad.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Portrait@2x~ipad.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"62E3B665-B0E4-41BB-954E-2DCC11EB7567-
 
 CCpResource Shunt/Resources/splash/Default-Portrait~ipad.png build/Shunt.app/Default-Portrait~ipad.png
-s391642258.657513
-e391642258.664222
+s399764958.889591
+e399764958.896131
 r1
 xCpResource
 xShunt/Resources/splash/Default-Portrait~ipad.png
 xbuild/Shunt.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Shunt.app/Default-Portrait~ipad.png8868a892fc57b741^e90aaa92fc57b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default-Portrait~ipad.png000000000080d041^823"CpResource "Shunt/Resources/splash/Default-Portrait~ipad.png" "build/Shunt.app/Default-Portrait~ipad.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default-Portrait~ipad.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"6DFBA518-2123-45AF-8210-E22A2527B69B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Shunt.app/Default-Portrait~ipad.png3be3e3deedd3b741^8368e5deedd3b741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default-Portrait~ipad.png000000000080d041^814"CpResource "Shunt/Resources/splash/Default-Portrait~ipad.png" "build/Shunt.app/Default-Portrait~ipad.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default-Portrait~ipad.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"2257DF65-1256-4944-8799-DA224FF5E078-
 
 CCpResource Shunt/Resources/splash/Default@2x~iphone.png build/Shunt.app/Default@2x~iphone.png
-s391642258.659702
-e391642258.665321
+s399764958.890674
+e399764958.897235
 r1
 xCpResource
 xShunt/Resources/splash/Default@2x~iphone.png
 xbuild/Shunt.app/Default@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/Shunt.app/Default@2x~iphone.png4b05a992fc57b741^7a52aa92fc57b741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default@2x~iphone.png000000000080d041^811"CpResource "Shunt/Resources/splash/Default@2x~iphone.png" "build/Shunt.app/Default@2x~iphone.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default@2x~iphone.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"70BD7692-50D7-4468-9F84-817989F9A698-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/Shunt.app/Default@2x~iphone.pngbd1ae4deedd3b741^dcb8e5deedd3b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default@2x~iphone.png000000000080d041^802"CpResource "Shunt/Resources/splash/Default@2x~iphone.png" "build/Shunt.app/Default@2x~iphone.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default@2x~iphone.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"77852715-A90C-4A1B-8AE4-82C80304BBF0-
 
 CCpResource Shunt/Resources/splash/Default~iphone.png build/Shunt.app/Default~iphone.png
-s391642258.659699
-e391642258.666461
+s399764958.891773
+e399764958.898480
 r1
 xCpResource
 xShunt/Resources/splash/Default~iphone.png
 xbuild/Shunt.app/Default~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Shunt.app/Default~iphone.png3606a992fc57b741^9d9faa92fc57b741^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/Default~iphone.png000000000080d041^802"CpResource "Shunt/Resources/splash/Default~iphone.png" "build/Shunt.app/Default~iphone.png"    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/dev/cordova/shunt/Shunt/Resources/splash/Default~iphone.png" /Users/kevin/dev/cordova/shunt/build/Shunt.app36"4A0DB1C1-B2CC-406C-BAC8-9537AFD9F404-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Shunt.app/Default~iphone.png6b63e4deedd3b741^b802e6deedd3b741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Default~iphone.png000000000080d041^793"CpResource "Shunt/Resources/splash/Default~iphone.png" "build/Shunt.app/Default~iphone.png"    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/kevin/ETNA/shunt/ios/Shunt/Resources/splash/Default~iphone.png" /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"0BE54627-A344-4DFE-A3E2-48F0C7B0B2BB-
 
 CCpResource Shunt/config.xml build/Shunt.app/config.xml
-s391642258.646890
-e391642258.650545
+s399764958.879000
+e399764958.882464
 r1
 xCpResource
 xShunt/config.xml
 xbuild/Shunt.app/config.xml
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/Shunt.app/config.xmlcec7a592fc57b741^408aa692fc57b741^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app/config.xml000000000080d041^738"CpResource Shunt/config.xml build/Shunt.app/config.xml    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/dev/cordova/shunt/Shunt/config.xml /Users/kevin/dev/cordova/shunt/build/Shunt.app36"1D5C260F-38E1-41A9-86AE-ADD4E789E5C9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/Shunt.app/config.xmlf52fe1deedd3b741^5be9e1deedd3b741^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app/config.xml000000000080d041^729"CpResource Shunt/config.xml build/Shunt.app/config.xml    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/kevin/ETNA/shunt/ios/Shunt/config.xml /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"4FC574E0-B604-4FEB-B14B-49434AF7B4FF-
+
+CGenerateDSYMFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYM /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt
+s399764960.082850
+e399764960.165660
+r1
+xGenerateDSYMFile
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYM
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Generate /Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYMfc5015e0edd3b741^2b682ae0edd3b741^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYM000000000080d041^735"GenerateDSYMFile build/Shunt.app.dSYM build/Shunt.app/Shunt    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt -o /Users/kevin/ETNA/shunt/ios/build/Shunt.app.dSYM36"9B944B2C-13A0-452C-940C-70B5BF5EC9F7-
 
 CGenerateDSYMFile /Users/kevin/dev/cordova/shunt/build/Shunt.app.dSYM /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt
 s391642259.888211
@@ -928,6 +1327,16 @@ x/Users/kevin/dev/cordova/shunt/build/Shunt.app.dSYM
 x/Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Generate /Users/kevin/dev/cordova/shunt/build/Shunt.app.dSYM917ee393fc57b741^01e0f893fc57b741^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/kevin/dev/cordova/shunt/build/Shunt.app.dSYM000000000080d041^744"GenerateDSYMFile build/Shunt.app.dSYM build/Shunt.app/Shunt    cd /Users/kevin/dev/cordova/shunt    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt -o /Users/kevin/dev/cordova/shunt/build/Shunt.app.dSYM36"DB650C50-4347-44AD-B5EE-C3A6D9D173D7-
 
+CLd /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt normal i386
+s399764959.982635
+e399764960.075896
+r1
+xLd
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Link /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt6dadfbdfedd3b741^b96d13e0edd3b741^---0#0#0#--1716"Ld build/Shunt.app/Shunt normal i386    cd /Users/kevin/ETNA/shunt/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/kevin/ETNA/shunt/ios/build -F/Users/kevin/ETNA/shunt/ios/build -filelist /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/Shunt.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/kevin/ETNA/shunt/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Shunt36"99F45692-CAA2-4CF8-81A6-4C16772BBB30-
+
 CLd /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt normal i386
 s391642259.784730
 e391642259.881796
@@ -937,6 +1346,19 @@ x/Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt
 xnormal
 xi386
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Link /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt7008c993fc57b741^94bde193fc57b741^---0#0#0#--1734"Ld build/Shunt.app/Shunt normal i386    cd /Users/kevin/dev/cordova/shunt    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/kevin/dev/cordova/shunt/build -F/Users/kevin/dev/cordova/shunt/build -filelist /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/Shunt.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/kevin/dev/cordova/shunt/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/kevin/dev/cordova/shunt/build/Shunt.app/Shunt36"57DDFD94-8C95-413D-9864-629F2A701B4C-
+
+CPhaseScriptExecution "Copy www directory" /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh
+s399764958.756106
+e399764958.870944
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.099s
+ouser	0m0.042s
+osys	0m0.050s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'e432c2deedd3b741^0ef6dedeedd3b741^-42"real	0m0.099suser	0m0.042ssys	0m0.050s3(21%IDEActivityLogMessage2@14"real	0m0.099s-399764958#1#14#-0#-----2@14"user	0m0.042s-399764958#15#14#-0#-----2@13"sys	0m0.050s-399764958#29#13#-0#-----0#0#0#--19549"PhaseScriptExecution "Copy www directory" build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh    cd /Users/kevin/ETNA/shunt/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevin/ETNA/shunt/ios/build    setenv BUILD_ROOT /Users/kevin/ETNA/shunt/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevin/ETNA/shunt/ios/build    setenv CACHE_ROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevin/ETNA/shunt/ios/build/Shunt.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevin/ETNA/shunt/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Shunt.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Shunt.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Shunt.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Shunt.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/kevin/ETNA/shunt/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Shunt.app/Executables    setenv EXECUTABLE_FOLDER_PATH Shunt.app    setenv EXECUTABLE_NAME Shunt    setenv EXECUTABLE_PATH Shunt.app/Shunt    setenv FILE_LIST /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Shunt.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kevin/ETNA/shunt/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Shunt.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Shunt/Shunt-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevin/ETNA/shunt/ios/build/include\" \"/Users/kevin/ETNA/shunt/ios/build/usr/local/lib/include\" \"/Users/kevin/ETNA/shunt/ios/build/UninstalledProducts/include\" \"/Users/kevin/ETNA/shunt/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Shunt/Shunt-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Shunt.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Shunt.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Shunt.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Shunt.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Shunt.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevin/ETNA/shunt/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/Shunt.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Shunt.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12E55    setenv MAC_OS_X_VERSION_ACTUAL 1084    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0804    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal    setenv OBJROOT /Users/kevin/ETNA/shunt/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Shunt.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/PkgInfo    setenv PKGINFO_PATH Shunt.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Shunt.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Shunt.app/PrivateHeaders    setenv PRODUCT_NAME Shunt    setenv PRODUCT_SETTINGS_PATH /Users/kevin/ETNA/shunt/ios/Shunt/Shunt-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Shunt    setenv PROJECT_DERIVED_FILE_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/DerivedSources    setenv PROJECT_DIR /Users/kevin/ETNA/shunt/ios    setenv PROJECT_FILE_PATH /Users/kevin/ETNA/shunt/ios/Shunt.xcodeproj    setenv PROJECT_NAME Shunt    setenv PROJECT_TEMP_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build    setenv PROJECT_TEMP_ROOT /Users/kevin/ETNA/shunt/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH Shunt.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevin/ETNA/shunt/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Shunt.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevin/ETNA/shunt/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Shunt.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Shunt.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/kevin/ETNA/shunt/ios    setenv SRCROOT /Users/kevin/ETNA/shunt/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/kevin/ETNA/shunt/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Shunt    setenv TARGET_BUILD_DIR /Users/kevin/ETNA/shunt/ios/build    setenv TARGET_NAME Shunt    setenv TARGET_TEMP_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_FILES_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_FILE_DIR /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_ROOT /Users/kevin/ETNA/shunt/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Shunt.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevin    setenv USER_APPS_DIR /Users/kevin/Applications    setenv USER_LIBRARY_DIR /Users/kevin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Shunt.app/version.plist    setenv VERSION_INFO_BUILDER kevin    setenv VERSION_INFO_FILE Shunt_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Shunt  PROJECT:Shunt-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Shunt.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1503    setenv XCODE_VERSION_ACTUAL 0463    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh36"0BE9722D-F7BF-42AD-9E0B-04E3D1E22CE0-
 
 CPhaseScriptExecution "Copy www directory" /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh
 s391642258.520776
@@ -950,6 +1372,15 @@ oreal	0m0.101s
 ouser	0m0.042s
 osys	0m0.051s
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'7b108692fc57b741^dc9fa392fc57b741^-42"real	0m0.101suser	0m0.042ssys	0m0.051s3(21%IDEActivityLogMessage2@14"real	0m0.101s-391642258#1#14#-0#-----2@14"user	0m0.042s-391642258#15#14#-0#-----2@13"sys	0m0.051s-391642258#29#13#-0#-----0#0#0#--19690"PhaseScriptExecution "Copy www directory" build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh    cd /Users/kevin/dev/cordova/shunt    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevin/dev/cordova/shunt/build    setenv BUILD_ROOT /Users/kevin/dev/cordova/shunt/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevin/dev/cordova/shunt/build    setenv CACHE_ROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevin/dev/cordova/shunt/build/Shunt.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevin/dev/cordova/shunt/build    setenv CONFIGURATION_TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Shunt.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Shunt.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Shunt.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Shunt.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/kevin/dev/cordova/shunt/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Shunt.app/Executables    setenv EXECUTABLE_FOLDER_PATH Shunt.app    setenv EXECUTABLE_NAME Shunt    setenv EXECUTABLE_PATH Shunt.app/Shunt    setenv FILE_LIST /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Shunt.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Shunt.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Shunt/Shunt-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build/include\" \"/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include\" \"/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include\" \"/Users/kevin/dev/cordova/shunt/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Shunt/Shunt-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Shunt.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Shunt.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Shunt.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Shunt.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Shunt.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal/i386/Shunt.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Shunt.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Objects-normal    setenv OBJROOT /Users/kevin/dev/cordova/shunt/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Shunt.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/PkgInfo    setenv PKGINFO_PATH Shunt.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Shunt.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Shunt.app/PrivateHeaders    setenv PRODUCT_NAME Shunt    setenv PRODUCT_SETTINGS_PATH /Users/kevin/dev/cordova/shunt/Shunt/Shunt-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Shunt    setenv PROJECT_DERIVED_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/DerivedSources    setenv PROJECT_DIR /Users/kevin/dev/cordova/shunt    setenv PROJECT_FILE_PATH /Users/kevin/dev/cordova/shunt/Shunt.xcodeproj    setenv PROJECT_NAME Shunt    setenv PROJECT_TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build    setenv PROJECT_TEMP_ROOT /Users/kevin/dev/cordova/shunt/build    setenv PUBLIC_HEADERS_FOLDER_PATH Shunt.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevin/dev/cordova/shunt/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Shunt.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevin/dev/cordova/shunt/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Shunt.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Shunt.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/kevin/dev/cordova/shunt    setenv SRCROOT /Users/kevin/dev/cordova/shunt    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/kevin/dev/cordova/shunt/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Shunt    setenv TARGET_BUILD_DIR /Users/kevin/dev/cordova/shunt/build    setenv TARGET_NAME Shunt    setenv TARGET_TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_FILES_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_FILE_DIR /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build    setenv TEMP_ROOT /Users/kevin/dev/cordova/shunt/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Shunt.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevin    setenv USER_APPS_DIR /Users/kevin/Applications    setenv USER_LIBRARY_DIR /Users/kevin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Shunt.app/version.plist    setenv VERSION_INFO_BUILDER kevin    setenv VERSION_INFO_FILE Shunt_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Shunt  PROJECT:Shunt-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Shunt.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Script-304B58A110DAC018002A0835.sh36"D295BBEE-3250-4709-B38C-22E71C55BA42-
+
+CProcessInfoPlistFile /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Info.plist Shunt/Shunt-Info.plist
+s399764958.744441
+e399764958.747322
+r1
+xProcessInfoPlistFile
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app/Info.plist
+xShunt/Shunt-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process Shunt/Shunt-Info.plist7daebedeedd3b741^bd51bfdeedd3b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Shunt-Info.plist0000000000000000^780"ProcessInfoPlistFile build/Shunt.app/Info.plist Shunt/Shunt-Info.plist    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    builtin-infoPlistUtility Shunt/Shunt-Info.plist -genpkginfo /Users/kevin/ETNA/shunt/ios/build/Shunt.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevin/ETNA/shunt/ios/build/Shunt.app/Info.plist36"A6BA5554-A5AC-4C43-9ED7-29DDCD6200FC-
 
 CProcessInfoPlistFile /Users/kevin/dev/cordova/shunt/build/Shunt.app/Info.plist Hello/Shunt-Info.plist
 s391642040.360675
@@ -971,6 +1402,19 @@ lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Process
 
 CProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-bcfzamxrxayzjeecaqzbtwiksccx/Shunt-Prefix.pch.pth Hello/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
+
+CProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.pth Shunt/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399764959.689757
+e399764959.909050
+r1
+xProcessPCH
+x/var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.pth
+xShunt/Shunt-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Shunt/Shunt-Prefix.pch0fb6b0dfedd3b741^6fb7e8dfedd3b741^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/kevin/ETNA/shunt/ios/Shunt/Shunt-Prefix.pch0000000000000000^3361"ProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.pth Shunt/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/ETNA/shunt/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/ETNA/shunt/ios/build/include -I/Users/kevin/ETNA/shunt/ios/build/usr/local/lib/include -I/Users/kevin/ETNA/shunt/ios/build/UninstalledProducts/include -I/Users/kevin/ETNA/shunt/ios/build -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/ETNA/shunt/ios/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/ETNA/shunt/ios/build --serialize-diagnostics /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.dia -c /Users/kevin/ETNA/shunt/ios/Shunt/Shunt-Prefix.pch -o /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-eypubpybzzhojbbdhgnkvsohtmhc/Shunt-Prefix.pch.d36"B923998B-AFBA-4B50-BBFF-6D34A28873A9-
 
 CProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch.pth Hello/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s391642000.017030
@@ -997,6 +1441,14 @@ xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile Shunt/Shunt-Prefix.pcha3e97c93fc57b741^10e7b593fc57b741^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/kevin/dev/cordova/shunt/Shunt/Shunt-Prefix.pch0000000000000000^3400"ProcessPCH /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch.pth Shunt/Shunt-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/kevin/dev/cordova/shunt    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-generated-files.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-own-target-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-all-target-headers.hmap -iquote /Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/Shunt-project-headers.hmap -I/Users/kevin/dev/cordova/shunt/build/include -I/Users/kevin/dev/cordova/shunt/build/usr/local/lib/include -I/Users/kevin/dev/cordova/shunt/build/UninstalledProducts/include -I/Users/kevin/dev/cordova/shunt/build -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources/i386 -I/Users/kevin/dev/cordova/shunt/build/Shunt.build/Debug-iphonesimulator/Shunt.build/DerivedSources -F/Users/kevin/dev/cordova/shunt/build --serialize-diagnostics /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch.dia -c /Users/kevin/dev/cordova/shunt/Shunt/Shunt-Prefix.pch -o /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/1r/6y4_slfs4jj_x6jkm9hdty900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Shunt-Prefix-glvfjqulfwmtzkhiiwwmgmrzrqxq/Shunt-Prefix.pch.d36"0D2001D8-E1A0-4804-8EF8-7F380C6B1B82-
+
+CTouch /Users/kevin/ETNA/shunt/ios/build/Shunt.app
+s399764960.173956
+e399764960.179537
+r1
+xTouch
+x/Users/kevin/ETNA/shunt/ios/build/Shunt.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Touch /Users/kevin/ETNA/shunt/ios/build/Shunt.appd3a02ce0edd3b741^d7f72de0edd3b741^---0#0#0#--561"Touch build/Shunt.app    cd /Users/kevin/ETNA/shunt/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Users/kevin/.rvm/bin:/usr/local/share/npm/bin:/Users/kevin/.npm:/Users/kevin/.rvm/gems/ruby-1.9.3-p286/bin:/Users/kevin/.rvm/gems/ruby-1.9.3-p286@global/bin:/Users/kevin/.rvm/rubies/ruby-1.9.3-p286/bin"    /usr/bin/touch -c /Users/kevin/ETNA/shunt/ios/build/Shunt.app36"772AEBB7-760A-491E-8F22-D926707B78D7-
 
 CTouch /Users/kevin/dev/cordova/shunt/build/Shunt.app
 s391642259.980381

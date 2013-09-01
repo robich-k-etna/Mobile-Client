@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVReachability.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVReachability.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVReachability.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVReachability.h

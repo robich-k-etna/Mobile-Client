@@ -425,3 +425,82 @@ May 31 10:09:38 kmac.local Shunt[19653] <Error>: CGAffineTransformInvert: singul
 May 31 10:09:38 kmac.local Shunt[19653] <Error>: CGAffineTransformInvert: singular matrix.
 May 31 10:09:38 kmac.local Shunt[19653] <Error>: CGAffineTransformInvert: singular matrix.
 Terminating in response to SpringBoard's termination.
+2013-09-01 22:44:46.482 Shunt[69431:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 22:44:46.719 Shunt[69431:c07] Resetting plugins due to page load.
+2013-09-01 22:44:46.881 Shunt[69431:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html#/
+Sep  1 22:44:46 kmac.local Shunt[69431] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 22:44:46 kmac.local Shunt[69431] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 22:44:46 kmac.local Shunt[69431] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 22:44:46 kmac.local Shunt[69431] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 22:44:54 kmac.local Shunt[69431] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 22:44:54 kmac.local Shunt[69431] <Error>: CGAffineTransformInvert: singular matrix.
+2013-09-01 23:12:29.514 Shunt[70394:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:12:29.541 Shunt[70394:c07] Resetting plugins due to page load.
+2013-09-01 23:12:30.983 Shunt[70394:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:13:46.537 Shunt[70430:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:13:46.579 Shunt[70430:c07] Resetting plugins due to page load.
+2013-09-01 23:13:47.973 Shunt[70430:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:15:18.330 Shunt[70471:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:15:18.360 Shunt[70471:c07] Resetting plugins due to page load.
+2013-09-01 23:15:19.657 Shunt[70471:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:18:24.109 Shunt[70521:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:18:24.141 Shunt[70521:c07] Resetting plugins due to page load.
+2013-09-01 23:18:25.461 Shunt[70521:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:18:40.246 Shunt[70549:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:18:40.276 Shunt[70549:c07] Resetting plugins due to page load.
+2013-09-01 23:18:41.583 Shunt[70549:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:21:38.885 Shunt[70599:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:21:38.917 Shunt[70599:c07] Resetting plugins due to page load.
+2013-09-01 23:21:40.226 Shunt[70599:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:23:19.300 Shunt[70638:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:23:19.332 Shunt[70638:c07] Resetting plugins due to page load.
+2013-09-01 23:23:20.748 Shunt[70638:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:25:57.442 Shunt[70684:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:25:57.473 Shunt[70684:c07] Resetting plugins due to page load.
+2013-09-01 23:25:58.793 Shunt[70684:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:27:29.912 Shunt[70724:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:27:29.945 Shunt[70724:c07] Resetting plugins due to page load.
+2013-09-01 23:27:31.281 Shunt[70724:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:28:08.714 Shunt[70752:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:28:08.745 Shunt[70752:c07] Resetting plugins due to page load.
+2013-09-01 23:28:10.062 Shunt[70752:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:28:55.318 Shunt[70783:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:28:55.348 Shunt[70783:c07] Resetting plugins due to page load.
+2013-09-01 23:28:56.726 Shunt[70783:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:36:37.401 Shunt[70872:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:36:37.433 Shunt[70872:c07] Resetting plugins due to page load.
+2013-09-01 23:36:38.825 Shunt[70872:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:40:11.844 Shunt[70927:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:40:11.875 Shunt[70927:c07] Resetting plugins due to page load.
+2013-09-01 23:40:13.353 Shunt[70927:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:40:59.341 Shunt[70957:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:40:59.372 Shunt[70957:c07] Resetting plugins due to page load.
+2013-09-01 23:41:00.767 Shunt[70957:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html
+2013-09-01 23:46:45.725 Shunt[71037:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:46:45.756 Shunt[71037:c07] Resetting plugins due to page load.
+2013-09-01 23:46:45.835 Shunt[71037:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html#/
+Sep  1 23:46:45 kmac.local Shunt[71037] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:46:45 kmac.local Shunt[71037] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:46:45 kmac.local Shunt[71037] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:46:45 kmac.local Shunt[71037] <Error>: CGAffineTransformInvert: singular matrix.
+2013-09-01 23:47:04.814 Shunt[71255:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:47:04.845 Shunt[71255:c07] Resetting plugins due to page load.
+2013-09-01 23:47:04.931 Shunt[71255:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html#/
+Sep  1 23:47:04 kmac.local Shunt[71255] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:47:04 kmac.local Shunt[71255] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:47:04 kmac.local Shunt[71255] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:47:04 kmac.local Shunt[71255] <Error>: CGAffineTransformInvert: singular matrix.
+2013-09-01 23:47:24.766 Shunt[71284:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:47:24.799 Shunt[71284:c07] Resetting plugins due to page load.
+2013-09-01 23:47:24.885 Shunt[71284:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html#/
+Sep  1 23:47:24 kmac.local Shunt[71284] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:47:24 kmac.local Shunt[71284] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:47:24 kmac.local Shunt[71284] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:47:24 kmac.local Shunt[71284] <Error>: CGAffineTransformInvert: singular matrix.
+2013-09-01 23:49:25.780 Shunt[71546:c07] Multi-tasking -> Device: YES, App: YES
+2013-09-01 23:49:25.812 Shunt[71546:c07] Resetting plugins due to page load.
+2013-09-01 23:49:25.897 Shunt[71546:c07] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/6.1/Applications/67F62B51-D599-4CE0-B5A2-E221A7A58FC9/Shunt.app/www/index.html#/
+Sep  1 23:49:25 kmac.local Shunt[71546] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:49:25 kmac.local Shunt[71546] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:49:25 kmac.local Shunt[71546] <Error>: CGAffineTransformInvert: singular matrix.
+Sep  1 23:49:25 kmac.local Shunt[71546] <Error>: CGAffineTransformInvert: singular matrix.

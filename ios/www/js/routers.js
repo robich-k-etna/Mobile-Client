@@ -1,8 +1,7 @@
 angular.module('shunt', [])
-.config(function ($compileProvider){
+.config(function ($compileProvider, $routeProvider) {
+
     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
-})
-.config(function ($routeProvider) {
 
     $routeProvider
     .when('/', {

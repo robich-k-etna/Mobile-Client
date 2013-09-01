@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVUserAgentUtil.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVUserAgentUtil.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVUserAgentUtil.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVUserAgentUtil.h

@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVWhitelist.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVWhitelist.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVWhitelist.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVWhitelist.h

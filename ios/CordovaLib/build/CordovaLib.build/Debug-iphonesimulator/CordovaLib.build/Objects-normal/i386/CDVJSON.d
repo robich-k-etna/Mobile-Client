@@ -1,2 +1,2 @@
-dependencies: /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVJSON.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVJSON.h
+dependencies: /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVJSON.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVJSON.h

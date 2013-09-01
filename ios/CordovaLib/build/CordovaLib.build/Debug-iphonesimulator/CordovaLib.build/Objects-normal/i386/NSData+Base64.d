@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSData+Base64.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSData+Base64.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/NSData+Base64.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/NSData+Base64.h

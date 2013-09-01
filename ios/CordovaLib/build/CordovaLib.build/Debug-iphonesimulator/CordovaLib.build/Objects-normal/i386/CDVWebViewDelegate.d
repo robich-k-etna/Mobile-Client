@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVWebViewDelegate.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVWebViewDelegate.h \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVAvailability.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVWebViewDelegate.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVWebViewDelegate.h \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVAvailability.h

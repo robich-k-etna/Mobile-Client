@@ -1,1 +1,1 @@
-dependencies: /Users/kevin/dev/cordova/shunt/Shunt/main.m
+dependencies: /Users/kevin/ETNA/shunt/ios/Shunt/main.m

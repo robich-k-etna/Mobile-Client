@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSDictionary+Extensions.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSDictionary+Extensions.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/NSDictionary+Extensions.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/NSDictionary+Extensions.h

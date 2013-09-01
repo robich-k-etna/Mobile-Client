@@ -1,4 +1,3 @@
-dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVContact.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVContact.h \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/NSDictionary+Extensions.h
+dependencies: /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVContact.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVContact.h \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/NSDictionary+Extensions.h

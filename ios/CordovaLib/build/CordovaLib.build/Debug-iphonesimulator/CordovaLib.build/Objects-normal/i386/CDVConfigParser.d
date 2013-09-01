@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVConfigParser.m \
-  /Users/kevin/dev/cordova/shunt/CordovaLib/Classes/CDVConfigParser.h
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVConfigParser.m \
+  /Users/kevin/ETNA/shunt/ios/CordovaLib/Classes/CDVConfigParser.h
