@@ -1,0 +1,27 @@
+<div id="menu-top" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+        <div class="container">
+            <h1>Configuration</h1>
+        </div>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div ng-show="view_part == 'list'">
+        <button class="btn" ng-click="addServer()">Add server</button>
+        <div ng-repeat="server in servers">
+            <span>{{server.name}}</span>
+            <button class="btn" ng-click="editServer(server)">Edit server</button>
+            <button class="btn" ng-click="deleteServer($index)">Delete server</button>
+        </div>
+    </div>
+    <div ng-show="view_part == 'form'">
+        <input type="text" ng-model="current_server.name" placeholder="Name" />
+        <input type="text" ng-model="current_server.address" placeholder="Adresse" />
+        <input type="text" ng-model="current_server.port" placeholder="Port" />
+        <input type="text" ng-model="current_server.login" placeholder="Adresse" />
+        <input type="text" ng-model="current_server.password" placeholder="Password" />
+        <button class="btn" ng-click="cancelEdit()">Cancel</button>
+        <button class="btn" ng-click="saveServer()">Save server</button>
+    </div>
+</div>
