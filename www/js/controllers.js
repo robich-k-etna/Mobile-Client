@@ -1,93 +1,106 @@
-var ShuntCtrl = function($scope, $location) {
-    console.log($location);
+var ShuntCtrl = function($scope) {
 };
 
 var DownloadsCtrl = function($scope) {
 	// a recuperer du serveur
-	var distant_data = {
-    	dlspeed: 290,
-    	ulspeed: 110,
-    	dltotal: 580.82,
-    	ultotal: 222.11,
-    	files: [
-    		{
-    			title: 'Lorem.Ipsum.zip',
-    			total: 200000,
-    			downloaded: 190000,
-    		},
-    		{
-    			title: 'vacances_a_la_plage_2012.mov',
-    			total: 200000,
-    			downloaded: 66667
-    		},
-    		{
-    			title: 'VirtualBox-4.2.6-OSX.dmg',
-    			total: 200000,
-    			downloaded: 100000,
-    			paused: 1
-    		},
-    		{
-    			title: 'Mon.Super.DL.rar',
-    			total: 200000,
-    			downloaded: 18000,
-    			error: 1
-    		},
-    		{
-    			title: 'Lorem.Ipsum.zip',
-    			total: 200000,
-    			downloaded: 190000,
-    		},
-    		{
-    			title: 'vacances_a_la_plage_2012.mov',
-    			total: 200000,
-    			downloaded: 66667
-    		},
-    		{
-    			title: 'VirtualBox-4.2.6-OSX.dmg',
-    			total: 200000,
-    			downloaded: 100000,
-    			paused: 1
-    		},
-    		{
-    			title: 'Mon.Super.DL.rar',
-    			total: 200000,
-    			downloaded: 18000,
-    			error: 1
-    		}
-    	]
-	}
+	var distant_data = [
+        {
+            id: 1,
+            name: 'Lorem.Ipsum.zip',
+            total_size: 200000,
+            dl_size: 190000,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'SEED'
+        },
+        {
+            id: 2,
+            name: 'vacances_a_la_plage_2012.mov',
+            total_size: 200000,
+            dl_size: 66667,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'SEED'
+        },
+        {
+            id: 3,
+            name: 'VirtualBox-4.2.6-OSX.dmg',
+            total_size: 200000,
+            dl_size: 100000,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'PAUSE'
+        },
+        {
+            id: 4,
+            name: 'Mon.Super.DL.rar',
+            total_size: 200000,
+            dl_size: 18000,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'ERROR'
+        },
+        {
+            id: 5,
+            name: 'Lorem.Ipsum.zip',
+            total_size: 200000,
+            dl_size: 190000,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'SEED'
+        },
+        {
+            id: 6,
+            name: 'vacances_a_la_plage_2012.mov',
+            total_size: 200000,
+            dl_size: 66667,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'SEED'
+        },
+        {
+            id: 7,
+            name: 'VirtualBox-4.2.6-OSX.dmg',
+            total_size: 200000,
+            dl_size: 100000,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'PAUSE'
+        },
+        {
+            id: 8,
+            name: 'Mon.Super.DL.rar',
+            total_size: 200000,
+            dl_size: 18000,
+            dl_rate: 0,
+            added_date: 1371333730,
+            'status': 'ERROR'
+        }
+    ];
 
-    var local_data = {
-    	dlspeed: distant_data.dlspeed,
-    	ulspeed: distant_data.ulspeed,
-    	dltotal: distant_data.dltotal,
-    	ultotal: distant_data.ultotal,
-    	files: []
+    $scope.view_part = 'list';
+    $scope.action = '';
+    $scope.current_file = {};
+    $scope.filter = {};
+
+    $scope.fileDetails = function(file) {
+        $scope.action = 'details';
+        $scope.current_file = file;
+        $scope.view_part = 'details';
+    };
+    $scope.fileList = function() {
+        $scope.view_part = 'list';
     };
 
-	for (var i = distant_data.files.length; i--;)
-	{
-		var file_data = distant_data.files[i];
-		var file = {
-			title: file_data.title,
-			progress: ~~(file_data.downloaded / file_data.total * 100),
-			status_class: '',
-			icon_class: 'refresh'
-		};
-		if (file_data.paused)
-		{
-			file.status_class = 'pause';
-			file.icon_class = 'pause';
-		}
-		if (file_data.error)
-		{
-			file.status_class = 'error';
-			file.icon_class = 'minus-sign';
-		}
-		local_data.files.push(file);
-	}
-
-	$scope.infos = local_data;
+    $scope.refreshInfos = function() {
+        $scope.infos = {};
+        for (var i = 0; i < distant_data.length; ++i) {
+            var file = distant_data[i];
+            file.progress = ~~(file.dl_size / file.total_size * 100)
+        }
+        $scope.infos.files = angular.copy(distant_data);
+    };
+    $scope.refreshInfos();
 };
 
 var ConfigCtrl = function($scope) {
@@ -142,6 +155,6 @@ var ConfigCtrl = function($scope) {
 
 angular
 .module('shunt.controllers', [])
-.controller('ShuntCtrl', ['$scope', '$location', ShuntCtrl])
+.controller('ShuntCtrl', ['$scope', ShuntCtrl])
 .controller('DownloadsCtrl', ['$scope', DownloadsCtrl])
 .controller('ConfigCtrl', ['$scope', ConfigCtrl])

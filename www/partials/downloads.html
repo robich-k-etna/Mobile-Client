@@ -10,7 +10,7 @@
 </div>
 
 <div id="content" class="container">
-    <div class="row">
+    <div class="row" ng-show="view_part == 'list'">
 
         <!-- dl-stats -->
         <div id="dl-stats" class="span12">
@@ -36,8 +36,8 @@
         <div id="dl-search">
             <div class="input-prepend input-append">
                 <span class="add-on add-on-left"><i class="icon-search"></i></span>
-                <input id="search-input" type="text" placeholder="rechercher...">
-                <span class="add-on add-on-right"><i class="icon-remove"></i></span>
+                <input id="search-input" type="text" placeholder="Rechercher..." ng-model="filter.name">
+                <span class="add-on add-on-right" ng-click="filter = {}"><i class="icon-remove"></i></span>
             </div>
         </div>
 
@@ -45,15 +45,21 @@
         <div id="dl-list">
             <p ng-show="!infos.files.length">Empty list!</p>
             <ul>
-            	<li ng-repeat="file in infos.files" class="dl-item {{file.status_class}}">
-                    <span class="pull-right chevron"><i class="icon-chevron-right icon-white"></i></span>
-                    <span class="pull-left status-sign"><i class="icon-{{file.icon_class}}"></i></span>
-                    <h2>{{file.title}}</h2>
+                <li ng-repeat="file in infos.files | filter:filter" class="dl-item" ng-class="{pause: file.status == 'PAUSE', error: file.status == 'ERROR'}">
+                    <span class="pull-right chevron" ng-click="fileDetails(file)"><i class="icon-chevron-right icon-white"></i></span>
+                    <span class="pull-left status-sign">
+                        <i ng-class="{'icon-pause': file.status == 'PAUSE', 'icon-minus-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'SEED'}"></i>
+                    </span>
+                    <h2>{{file.name}}</h2>
                     <div class="progress-bar">
                         <div class="progress-inner" style="width:{{file.progress}}%;"></div>
                     </div>
                 </li>
             </ul>
         </div>
+    </div>
+    <div class="row" ng-show="view_part == 'details'">
+        {{current_file}}
+        <button class="btn" ng-click="fileList()">Retour à la liste</button>
     </div>
 </div>
