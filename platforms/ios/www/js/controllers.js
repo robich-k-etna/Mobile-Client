@@ -1,4 +1,17 @@
 var ShuntCtrl = function($scope) {
+    $scope.servers = [];
+
+    $scope.loadServers = function() {
+        var json = window.localStorage.getItem('servers');
+        try {
+            $scope.servers = JSON.parse(json);
+        }
+        catch(e) {
+            $scope.servers = [];
+        }
+        if (!$scope.servers)
+            $scope.servers = [];
+    };
 };
 
 var DownloadsCtrl = function($scope) {
@@ -82,6 +95,8 @@ var DownloadsCtrl = function($scope) {
     $scope.action = '';
     $scope.current_file = {};
     $scope.filter = {};
+    $scope.current_server = null;
+    $scope.server_filter = null;
 
     $scope.fileDetails = function(file) {
         $scope.action = 'details';
@@ -89,7 +104,12 @@ var DownloadsCtrl = function($scope) {
         $scope.view_part = 'details';
     };
     $scope.fileList = function() {
+        $scope.action = 'add';
+        $scope.current_file = {};
         $scope.view_part = 'list';
+    };
+    $scope.addPart = function() {
+        $scope.view_part = 'add';
     };
 
     $scope.refreshInfos = function() {
@@ -100,26 +120,28 @@ var DownloadsCtrl = function($scope) {
         }
         $scope.infos.files = angular.copy(distant_data);
     };
-    $scope.refreshInfos();
+    $scope.loadServers();
+    if ($scope.servers.length) {
+        $scope.server_filter = $scope.servers[0].name;
+    }
+
+    $scope.$watch('server_filter', function(value) {
+        for (var i = 0; i < $scope.servers.length; ++i) {
+            if ($scope.servers[i].name == value) {
+                $scope.current_server = $scope.servers[i];
+                $scope.refreshInfos();
+            }
+        }
+        $scope.current_server = null;
+        $scope.refreshInfos();
+    });
 };
 
 var ConfigCtrl = function($scope) {
     $scope.view_part = 'list';
     $scope.action = '';
     $scope.current_server = null;
-    $scope.servers = [];
 
-    $scope.loadServers = function() {
-        var json = window.localStorage.getItem('servers');
-        try {
-            $scope.servers = JSON.parse(json);
-        }
-        catch(e) {
-            $scope.servers = [];
-        }
-        if (!$scope.servers)
-            $scope.servers = [];
-    };
     $scope.saveServers = function() {
         window.localStorage.setItem('servers', JSON.stringify($scope.servers));
     };

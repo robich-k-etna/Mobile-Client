@@ -162,8 +162,12 @@ body, html {
 	margin: 0;
 }
 
+#dl-list .dl-item a {
+    color: black;
+}
+
 #dl-list .dl-item {
-	height: 30px;
+	min-height: 30px;
 	padding: 4px 6px;
 	margin-top: -1px;
 	border: 1px solid #ccc;

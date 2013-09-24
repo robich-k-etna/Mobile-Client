@@ -1,6 +1,6 @@
 <div id="menu-top" class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
-        <div id="add-item" class="pull-right">
+        <div id="add-item" ng-click="addPart()" class="pull-right">
             <i class="icon-plus icon-white"></i>
         </div>
         <div class="container">
@@ -11,6 +11,10 @@
 
 <div id="content" class="container">
     <div class="row" ng-show="view_part == 'list'">
+
+        <select ng-model="server_filter" ng-options="server.name as server.name for server in servers"}>
+            <option style="display:none" value="">Selectionnez un serveur</option>
+        </select>
 
         <!-- dl-stats -->
         <div id="dl-stats" class="span12">
@@ -45,8 +49,9 @@
         <div id="dl-list">
             <p ng-show="!infos.files.length">Empty list!</p>
             <ul>
-                <li ng-repeat="file in infos.files | filter:filter" class="dl-item" ng-class="{pause: file.status == 'PAUSE', error: file.status == 'ERROR'}">
-                    <span class="pull-right chevron" ng-click="fileDetails(file)"><i class="icon-chevron-right icon-white"></i></span>
+                <li ng-repeat="file in infos.files | filter:filter" class="dl-item collapse-group" ng-class="{pause: file.status == 'PAUSE', error: file.status == 'ERROR'}">
+                <a data-toggle="collapse" href="#dl{{$index}}">
+                    <!--<span class="pull-right chevron" ng-click="fileDetails(file)"><i class="icon-chevron-right icon-white"></i></span>-->
                     <span class="pull-left status-sign">
                         <i ng-class="{'icon-pause': file.status == 'PAUSE', 'icon-minus-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'SEED'}"></i>
                     </span>
@@ -54,12 +59,28 @@
                     <div class="progress-bar">
                         <div class="progress-inner" style="width:{{file.progress}}%;"></div>
                     </div>
+                </a>
+                <div id="dl{{$index}}" class="collapse">
+                    Actions et détails
+                </div>
                 </li>
             </ul>
         </div>
     </div>
+
     <div class="row" ng-show="view_part == 'details'">
         {{current_file}}
         <button class="btn" ng-click="fileList()">Retour à la liste</button>
+    </div>
+
+    <div class="row" ng-show="view_part == 'add'">
+        <select ng-model="current_file.type">
+            <option style="display:none" value="">Type de télechargement</option>
+            <option value="torrent">Torrent</option>
+            <option value="http">HTTP</option>
+        </select>
+        <input type="text" ng-model="current_file.link" placeholder="Lien du téléchargement"/>
+        <button class="btn" ng-click="fileList()">Annuler</button>
+        <button class="btn" ng-click="fileList()">Ajouter</button>
     </div>
 </div>
