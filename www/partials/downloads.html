@@ -15,6 +15,7 @@
         <select ng-model="server_filter" ng-options="server.name as server.name for server in servers"}>
             <option style="display:none" value="">Selectionnez un serveur</option>
         </select>
+        <button ng-click="refreshInfos()" class="btn"><i class="icon-refresh"></i> Refresh</button>
 
         <!-- dl-stats -->
         <div id="dl-stats" class="span12">
@@ -49,11 +50,11 @@
         <div id="dl-list">
             <p ng-show="!infos.files.length">Empty list!</p>
             <ul>
-                <li ng-repeat="file in infos.files | filter:filter" class="dl-item collapse-group" ng-class="{pause: file.status == 'PAUSE', error: file.status == 'ERROR'}">
+                <li ng-repeat="file in infos.files | filter:filter" class="dl-item collapse-group"
+                ng-class="{pause: file.status == 'PAUSED', error: file.status == 'ERROR'}">
                 <a data-toggle="collapse" href="#dl{{$index}}">
-                    <!--<span class="pull-right chevron" ng-click="fileDetails(file)"><i class="icon-chevron-right icon-white"></i></span>-->
                     <span class="pull-left status-sign">
-                        <i ng-class="{'icon-pause': file.status == 'PAUSE', 'icon-minus-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'SEED'}"></i>
+                        <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-minus-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload': file.status == 'SEED', 'icon-stop': file.status == 'STOPPED'}"></i>
                     </span>
                     <h2>{{file.name}}</h2>
                     <div class="progress-bar">

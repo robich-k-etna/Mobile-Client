@@ -14,7 +14,7 @@ var ShuntCtrl = function($scope) {
     };
 };
 
-var DownloadsCtrl = function($scope) {
+var DownloadsCtrl = function($scope, requestService) {
 	// a recuperer du serveur
 	var distant_data = [
         {
@@ -114,11 +114,19 @@ var DownloadsCtrl = function($scope) {
 
     $scope.refreshInfos = function() {
         $scope.infos = {};
-        for (var i = 0; i < distant_data.length; ++i) {
-            var file = distant_data[i];
-            file.progress = ~~(file.dl_size / file.total_size * 100)
+        if ($scope.current_server) {
+            requestService.request('GET', '/torrents', {}, function(data) {
+                for (var i = 0; i < data.length; ++i) {
+                    var file = data[i];
+                    if (file.dl_size > file.total_size)
+                        file.dl_size = file.total_size;
+                    if (file.dl_size < file.total_size && file.status == 'STOPPED')
+                        file.status = 'PAUSED';
+                    file.progress = ~~(file.dl_size / file.total_size * 100);
+                }
+                $scope.infos.files = angular.copy(data);
+            });
         }
-        $scope.infos.files = angular.copy(distant_data);
     };
     $scope.loadServers();
     if ($scope.servers.length) {
@@ -129,10 +137,14 @@ var DownloadsCtrl = function($scope) {
         for (var i = 0; i < $scope.servers.length; ++i) {
             if ($scope.servers[i].name == value) {
                 $scope.current_server = $scope.servers[i];
+                requestService.setServer($scope.current_server.address, $scope.current_server.port);
+                requestService.setBasicAuth($scope.current_server.login, $scope.current_server.password);
                 $scope.refreshInfos();
+                return;
             }
         }
         $scope.current_server = null;
+        requestService.noBasicAuth($scope.current_server.login, $scope.current_server.password);
         $scope.refreshInfos();
     });
 };
@@ -178,5 +190,5 @@ var ConfigCtrl = function($scope) {
 angular
 .module('shunt.controllers', [])
 .controller('ShuntCtrl', ['$scope', ShuntCtrl])
-.controller('DownloadsCtrl', ['$scope', DownloadsCtrl])
+.controller('DownloadsCtrl', ['$scope', 'requestService', DownloadsCtrl])
 .controller('ConfigCtrl', ['$scope', ConfigCtrl])

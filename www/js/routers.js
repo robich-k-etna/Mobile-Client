@@ -1,4 +1,4 @@
-angular.module('shunt', ['shunt.controllers', 'shunt.directives'])
+angular.module('shunt', ['shunt.services', 'shunt.controllers', 'shunt.directives'])
 .config(function ($compileProvider, $routeProvider) {
 
     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
