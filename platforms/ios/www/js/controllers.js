@@ -104,12 +104,18 @@ var DownloadsCtrl = function($scope, requestService) {
         $scope.view_part = 'details';
     };
     $scope.fileList = function() {
-        $scope.action = 'add';
         $scope.current_file = {};
         $scope.view_part = 'list';
     };
     $scope.addPart = function() {
+        $scope.action = 'add';
         $scope.view_part = 'add';
+    };
+    $scope.addFile = function() {
+        requestService.request('POST', '/torrents', {torrent: $scope.current_file.link}, function(data) {
+            $scope.fileList();
+            $scope.refreshInfos();
+        });
     };
 
     $scope.refreshInfos = function() {

@@ -68,7 +68,9 @@ var RequestService = function($http, Base64) {
     this.$http = $http;
     this.Base64 = Base64;
     this.server = 'localhost';
-    this.headers = {};
+    this.headers = {
+        'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8'
+    };
     this.protocol = 'http';
 };
 RequestService.prototype.setServer = function(host, port) {
@@ -87,7 +89,8 @@ RequestService.prototype.request = function(method, route, args, success, error)
     this.$http({
         method: method,
         url: this.protocol + '://' + this.server + route,
-        headers: this.headers
+        headers: this.headers,
+        data: $.param(args)
     })
     .success(function(data, status, headers, config) {
         if (success) {
