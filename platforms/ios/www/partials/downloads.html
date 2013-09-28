@@ -52,18 +52,20 @@
             <ul>
                 <li ng-repeat="file in infos.files | filter:filter" class="dl-item collapse-group"
                 ng-class="{pause: file.status == 'PAUSED', error: file.status == 'ERROR'}">
-                <a data-toggle="collapse" href="#dl{{$index}}">
-                    <span class="pull-left status-sign">
-                        <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-minus-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload': file.status == 'SEED', 'icon-stop': file.status == 'STOPPED'}"></i>
-                    </span>
-                    <h2>{{file.name}}</h2>
-                    <div class="progress-bar">
-                        <div class="progress-inner" style="width:{{file.progress}}%;"></div>
+                    <a data-toggle="collapse" href="#dl{{$index}}">
+                        <span class="pull-left status-sign">
+                            <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-minus-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload': file.status == 'SEED', 'icon-stop': file.status == 'STOPPED'}"></i>
+                        </span>
+                        <h2>{{file.name}} -- {{file.progress}} %</h2>
+                        <div class="progress-bar">
+                            <div class="progress-inner" style="width:{{file.progress}}%;"></div>
+                        </div>
+                    </a>
+                    <div id="dl{{$index}}" class="collapse">
+                        <button class="btn" ng-click="startFile(file)"><i class="icon-play"></i> Démarrer / Reprendre</button>
+                        <button class="btn" ng-click="stopFile(file)"><i class="icon-pause"></i> Pause / Arrêt</button>
+                        <button class="btn" ng-click="deleteFile(file)"><i class="icon-remove"></i> Supprimer</button>
                     </div>
-                </a>
-                <div id="dl{{$index}}" class="collapse">
-                    Actions et détails
-                </div>
                 </li>
             </ul>
         </div>

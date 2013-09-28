@@ -117,6 +117,21 @@ var DownloadsCtrl = function($scope, requestService) {
             $scope.refreshInfos();
         });
     };
+    $scope.startFile = function(file) {
+        requestService.request('GET', '/torrents/' + file.id + '/start', {}, function(data) {
+            $scope.refreshInfos();
+        });
+    };
+    $scope.stopFile = function(file) {
+        requestService.request('GET', '/torrents/' + file.id + '/stop', {}, function(data) {
+            $scope.refreshInfos();
+        });
+    };
+    $scope.deleteFile = function(file) {
+        requestService.request('DELETE', '/torrents/' + file.id, {}, function(data) {
+            $scope.refreshInfos();
+        });
+    };
 
     $scope.refreshInfos = function() {
         $scope.infos = {};
