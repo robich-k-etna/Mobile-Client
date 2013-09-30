@@ -1,11 +1,11 @@
 <div id="menu-top" class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
         <!-- Add dl -->
-        <div id="add-item" ng-click="addPart()" class="btn-lagoon pull-right">
+        <div id="add-item" ng-click="addPart()" ng-show="view_part == 'list'" class="btn-lagoon pull-right">
             <i class="icon-plus"></i>
         </div>
         <!-- Back dl-list -->
-        <div id="back-dl-list" ng-click="fileList()" class="btn-lagoon pull-left">
+        <div id="back-dl-list" ng-click="fileList()" ng-show="view_part != 'list'" class="btn-lagoon pull-left">
             <i class="icon-chevron-left"></i>
         </div>
         <div class="container">
@@ -25,29 +25,29 @@
         <div ng-click="refreshInfos()" id="serv-refresh" class="btn-lagoon mB10 pull-right"><i class="icon-refresh"></i></div>
 
         <!-- dl-stats -->
-        <div id="dl-stats" class="span12">
+        <div id="dl-stats" class="span12" ng-show="infos.files.length">
             <div class="row">
                 <div class="dl-stats-left">
                     <p>
                         <span class="bold fs14">Download :</span><br/>
-                        {{infos.dlspeed}} Ko/s. ({{infos.dltotal}} Go)
+                        {{infos.dlspeed | size}}/s. ({{infos.dltotal | size}})
                     </p>
                 </div>
-                <div class="dl-stats-right">
-                    <p>
-                        <span class="bold fs14">Upload :</span><br/>
-                        {{infos.ulspeed}} Ko/s. ({{infos.ultotal}} Go)
-                    </p>
-                </div>
+                <!--<div class="dl-stats-right">-->
+                    <!--<p>-->
+                        <!--<span class="bold fs14">Upload :</span><br/>-->
+                        <!--{{infos.ulspeed}} Ko/s. ({{infos.ultotal}} Go)-->
+                    <!--</p>-->
+                <!--</div>-->
             </div>
             <div class="clearfix"></div>
             <div class="dl-stats-files">
-                <p><span class="bold fs14">Total :</span> {{infos.files.length}} fichier(s)</p>
+                <p><span class="bold fs14">Total :</span> {{infos.files.length}} fichier<span ng-show="infos.files.length > 1">s</span></p>
             </div>
         </div>
 
         <!-- dl-search -->
-        <div id="dl-search">
+        <div id="dl-search" ng-show="infos.files.length">
             <div class="input-prepend input-append">
                 <span class="add-on add-on-left"><i class="icon-search"></i></span>
                 <input id="search-input" type="text" placeholder="Rechercher..." ng-model="filter.name">
@@ -63,27 +63,27 @@
                 <li ng-repeat="file in infos.files | filter:filter" class="dl-item collapse-group"
                 ng-class="{pause: file.status == 'PAUSED', error: file.status == 'ERROR'}">
                     <div class="dl-item-overview">
-                        <span class="chevron btn-lagoon pull-right disabled">
-                            <i class="icon-chevron-right"></i>
-                        </span>
+                        <!--<span class="chevron btn-lagoon pull-right disabled" ng-click="fileDetails(file)">-->
+                            <!--<i class="icon-chevron-right"></i>-->
+                        <!--</span>-->
                         <a data-toggle="collapse" href="#dl{{$index}}">
                             <span class="pull-left status-sign">
-                                <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-warning-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload-alt': file.status == 'SEED', 'icon-minus-sign': file.status == 'STOPPED', 'icon-ok': file.status == ''}"></i>
+                                <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-warning-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload-alt': file.status == 'SEED', 'icon-ok': file.status == 'STOPPED'}"></i>
                             </span>
                             <h3>{{file.name}}</h3>
-                            <div class="progress-bar progress-info progress-striped">
-                                <div class="progress-inner bar active" style="width:{{file.progress}}%;"></div>
+                            <div class="progress-bar" ng-class="{'progress-info': file.status == 'STOPPED' || file.status == 'DOWNLOAD' || file.status == 'SEED', 'progress-warning': file.status == 'PAUSE', 'progress-danger': file.status == 'ERROR', 'progress-striped': file.status == 'DOWNLOAD' || file.status == 'SEED'}">
+                                <div class="progress-inner bar" ng-class="{'active': file.status == 'DOWNLOAD' || file.status == 'SEED'}" style="width:{{file.progress}}%;"></div>
                             </div>
                         </a>
                     </div>
                     <div id="dl{{$index}}" class="collapse open-item">
                         <div class="open-wrap">
-                            <div class="open-left">DL: -- Ko/s.</div>
+                            <div class="open-left">DL: {{file.dl_rate | size}}/s.</div>
                             <div class="open-right">({{file.progress}} %)</div>
                             <div class="clearfix"></div>
                             <div class="open-action">
-                                <button class="btn btn-info" ng-click="startFile(file)"><i class="icon-play"></i> Reprendre</button>
-                                <button class="btn btn-warning" ng-click="stopFile(file)"><i class="icon-pause"></i> Arrêter</button>
+                                <button class="btn btn-info" ng-show="file.status == 'PAUSED' || file.status == 'STOPPED'" ng-click="startFile(file)"><i class="icon-play"></i> Reprendre</button>
+                                <button class="btn btn-warning" ng-hide="file.status == 'PAUSED' || file.status == 'STOPPED'" ng-click="stopFile(file)"><i class="icon-pause"></i> Arrêter</button>
                                 <button class="btn btn-danger" ng-click="deleteFile(file)"><i class="icon-remove"></i> Supprimer</button>
                             </div>
                         </div>

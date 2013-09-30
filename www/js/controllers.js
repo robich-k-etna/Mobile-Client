@@ -134,7 +134,7 @@ var DownloadsCtrl = function($scope, requestService) {
     };
 
     $scope.refreshInfos = function() {
-        $scope.infos = {};
+        $scope.infos = {dlspeed: 0, dltotal: 0};
         if ($scope.current_server) {
             requestService.request('GET', '/torrents', {}, function(data) {
                 for (var i = 0; i < data.length; ++i) {
@@ -143,6 +143,9 @@ var DownloadsCtrl = function($scope, requestService) {
                         file.dl_size = file.total_size;
                     if (file.dl_size < file.total_size && file.status == 'STOPPED')
                         file.status = 'PAUSED';
+                    $scope.infos.dlspeed += file.dl_rate;
+                    console.log(file);
+                    $scope.infos.dltotal += file.dl_size;
                     file.progress = ~~(file.dl_size / file.total_size * 100);
                 }
                 $scope.infos.files = angular.copy(data);

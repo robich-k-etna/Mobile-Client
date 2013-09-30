@@ -104,7 +104,24 @@ RequestService.prototype.request = function(method, route, args, success, error)
     });
 };
 
+var sizeFilter = function() {
+    return function(number) {
+        var tmp = number / 1024;
+        if (tmp <= 0) {
+            return number.toString() + ' o';
+        }
+        number = tmp;
+        tmp = number / 1024;
+        if (tmp <= 0) {
+            return number.toFixed(1) + ' Ko';
+        }
+        number = tmp;
+        return number.toFixed(1) + ' Mo';
+    }
+};
+
 angular
 .module('shunt.services', [])
 .factory('Base64', [Base64Factory])
 .service('requestService', ['$http', 'Base64', RequestService])
+.filter('size', sizeFilter)
