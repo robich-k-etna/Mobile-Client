@@ -310,3 +310,12 @@ Sep 27 16:26:52 kmac.local Shunt[15374] <Error>: CGContextSetBlendMode: invalid 
 2013-09-28 22:28:02.878 Shunt[17759:a0b] Multi-tasking -> Device: YES, App: YES
 2013-09-28 22:28:03.223 Shunt[17759:a0b] Resetting plugins due to page load.
 2013-09-28 22:28:03.694 Shunt[17759:a0b] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/7.0/Applications/C4E83224-3547-44B1-A47B-EA746EEA61CB/Shunt.app/www/index.html#/
+2013-10-03 14:56:05.641 Shunt[24243:a0b] Multi-tasking -> Device: YES, App: YES
+2013-10-03 14:56:05.931 Shunt[24243:a0b] Resetting plugins due to page load.
+2013-10-03 14:56:06.318 Shunt[24243:a0b] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/7.0/Applications/C4E83224-3547-44B1-A47B-EA746EEA61CB/Shunt.app/www/index.html#/
+2013-10-03 14:56:33.996 Shunt[24654:a0b] Multi-tasking -> Device: YES, App: YES
+2013-10-03 14:56:34.101 Shunt[24654:a0b] Resetting plugins due to page load.
+2013-10-03 14:56:34.331 Shunt[24654:a0b] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/7.0/Applications/8BD4860A-5115-4462-8A1B-5B363799648A/Shunt.app/www/index.html#/
+2013-10-03 15:13:53.535 Shunt[25110:a0b] Multi-tasking -> Device: YES, App: YES
+2013-10-03 15:13:53.644 Shunt[25110:a0b] Resetting plugins due to page load.
+2013-10-03 15:13:53.862 Shunt[25110:a0b] Finished load of: file:///Users/kevin/Library/Application%20Support/iPhone%20Simulator/7.0/Applications/8BD4860A-5115-4462-8A1B-5B363799648A/Shunt.app/www/index.html#/

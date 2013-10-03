@@ -31,6 +31,10 @@ h2 {
 	width: 15%;
 }
 
+.mt10 {
+	margin-top: 10px;
+}
+
 .mB10 {
 	margin-bottom: 10px;
 }
@@ -57,7 +61,6 @@ h2 {
 	cursor: pointer;
 }
 
-
 .btn-lagoon:active,
 .btn-lagoon:focus,
 .btn-lagoon:hover {
@@ -66,6 +69,35 @@ h2 {
 	background-image: none;
 }
 
+.btn-carmin {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	border: 1px solid #bd362f;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+	background-color: #da4f49;
+	background-image: -moz-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#ee5f5b),to(#bd362f));
+	background-image: -webkit-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image: -o-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
+	background-repeat: repeat-x;
+	cursor: pointer;
+}
+
+.btn-carmin:active,
+.btn-carmin:focus,
+.btn-carmin:hover {
+	color: ;
+	background-color: #01a4bd;
+	background-image: none;
+}
 /*** Top & Bottom Menu **********************************************/
 
 @media (max-width: 979px) {
@@ -142,7 +174,7 @@ h2 {
 	color: #01a4bd;
 }
 
-/*** Middle - Content *******/
+/*** Middle - Content ***********************************************/
 
 #content {
 	margin-top: 61px;
@@ -335,14 +367,7 @@ h2 {
 .dl-item .progress-inner {
 	height: 6px;
 	margin-top: -1px;
-/*	background-color: #5bb75b;
-	background-image: -moz-linear-gradient(top,#5bc0de,#01a4bd);
-	background-image: -webkit-gradient(linear,0 0,0 100%,from(#5bc0de),to(#01a4bd));
-	background-image: -webkit-linear-gradient(top,#5bc0de,#01a4bd);
-	background-image: -o-linear-gradient(top,#5bc0de,#01a4bd);
-	background-image: linear-gradient(to bottom,#5bc0de,#01a4bd);
-	background-repeat: repeat-x;
-*/	-webkit-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
 }
@@ -389,6 +414,28 @@ h2 {
 .open-action .btn {
 	width: 45%;
 	margin: 0 1% 5px;
+}
+
+/*** server-list *******/
+
+#server-list {
+	margin-top: 20px;
+	background-color: #fff;
+}
+
+#server-list td {
+	vertical-align: middle;
+}
+
+#server-list button {
+	width: 30px;
+	height: 30px;
+	line-height: 26px;
+	padding: 0;
+}
+
+#server-list .serv-action {
+	text-align: center;
 }
 
 /*** add-item & back-dl-list buttons ********************************/
