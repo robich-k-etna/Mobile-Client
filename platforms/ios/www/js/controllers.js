@@ -12,85 +12,12 @@ var ShuntCtrl = function($scope) {
         if (!$scope.servers)
             $scope.servers = [];
     };
+    $scope.saveServers = function() {
+        window.localStorage.setItem('servers', JSON.stringify($scope.servers));
+    };
 };
 
 var DownloadsCtrl = function($scope, requestService) {
-	// a recuperer du serveur
-	var distant_data = [
-        {
-            id: 1,
-            name: 'Lorem.Ipsum.zip',
-            total_size: 200000,
-            dl_size: 190000,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'SEED'
-        },
-        {
-            id: 2,
-            name: 'vacances_a_la_plage_2012.mov',
-            total_size: 200000,
-            dl_size: 66667,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'SEED'
-        },
-        {
-            id: 3,
-            name: 'VirtualBox-4.2.6-OSX.dmg',
-            total_size: 200000,
-            dl_size: 100000,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'PAUSE'
-        },
-        {
-            id: 4,
-            name: 'Mon.Super.DL.rar',
-            total_size: 200000,
-            dl_size: 18000,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'ERROR'
-        },
-        {
-            id: 5,
-            name: 'Lorem.Ipsum.zip',
-            total_size: 200000,
-            dl_size: 190000,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'SEED'
-        },
-        {
-            id: 6,
-            name: 'vacances_a_la_plage_2012.mov',
-            total_size: 200000,
-            dl_size: 66667,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'SEED'
-        },
-        {
-            id: 7,
-            name: 'VirtualBox-4.2.6-OSX.dmg',
-            total_size: 200000,
-            dl_size: 100000,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'PAUSE'
-        },
-        {
-            id: 8,
-            name: 'Mon.Super.DL.rar',
-            total_size: 200000,
-            dl_size: 18000,
-            dl_rate: 0,
-            added_date: 1371333730,
-            'status': 'ERROR'
-        }
-    ];
-
     $scope.view_part = 'list';
     $scope.action = '';
     $scope.current_file = {};
@@ -108,6 +35,7 @@ var DownloadsCtrl = function($scope, requestService) {
         $scope.view_part = 'list';
     };
     $scope.addPart = function() {
+        $scope.current_file = {};
         $scope.action = 'add';
         $scope.view_part = 'add';
     };
@@ -144,7 +72,6 @@ var DownloadsCtrl = function($scope, requestService) {
                     if (file.dl_size < file.total_size && file.status == 'STOPPED')
                         file.status = 'PAUSED';
                     $scope.infos.dlspeed += file.dl_rate;
-                    console.log(file);
                     $scope.infos.dltotal += file.dl_size;
                     file.progress = ~~(file.dl_size / file.total_size * 100);
                 }
@@ -160,7 +87,9 @@ var DownloadsCtrl = function($scope, requestService) {
     $scope.$watch('server_filter', function(value) {
         for (var i = 0; i < $scope.servers.length; ++i) {
             if ($scope.servers[i].name == value) {
-                $scope.current_server = $scope.servers[i];
+                $scope.servers.move(i, 0);
+                $scope.saveServers();
+                $scope.current_server = $scope.servers[0];
                 requestService.setServer($scope.current_server.address, $scope.current_server.port);
                 requestService.setBasicAuth($scope.current_server.login, $scope.current_server.password);
                 $scope.refreshInfos();
@@ -178,9 +107,6 @@ var ConfigCtrl = function($scope) {
     $scope.action = '';
     $scope.current_server = null;
 
-    $scope.saveServers = function() {
-        window.localStorage.setItem('servers', JSON.stringify($scope.servers));
-    };
     $scope.loadServers();
 
     $scope.addServer = function() {

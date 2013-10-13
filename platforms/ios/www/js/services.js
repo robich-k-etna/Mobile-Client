@@ -107,16 +107,21 @@ RequestService.prototype.request = function(method, route, args, success, error)
 var sizeFilter = function() {
     return function(number) {
         var tmp = number / 1024;
-        if (tmp <= 0) {
+        if (tmp < 1) {
             return number.toString() + ' o';
         }
         number = tmp;
         tmp = number / 1024;
-        if (tmp <= 0) {
+        if (tmp < 1) {
             return number.toFixed(1) + ' Ko';
         }
         number = tmp;
-        return number.toFixed(1) + ' Mo';
+        tmp = number / 1024;
+        if (tmp < 1) {
+            return number.toFixed(1) + ' Mo';
+        }
+        number = tmp;
+        return number.toFixed(1) + ' Go';
     }
 };
 
