@@ -71,7 +71,7 @@
                                 <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-warning-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload-alt': file.status == 'SEED', 'icon-ok': file.status == 'STOPPED'}"></i>
                             </span>
                             <h3>{{file.name}}</h3>
-                            <div class="progress-bar" ng-class="{'progress-info': file.status == 'STOPPED' || file.status == 'DOWNLOAD' || file.status == 'SEED', 'progress-warning': file.status == 'PAUSED', 'progress-danger': file.status == 'ERROR', 'progress-striped': file.status == 'DOWNLOAD' || file.status == 'SEED'}">
+                            <div class="progress-bar" ng-class="{'progress-info': file.status == 'DOWNLOAD', 'progress-success': file.status == 'STOPPED' || file.status == 'SEED', 'progress-warning': file.status == 'PAUSED', 'progress-danger': file.status == 'ERROR', 'progress-striped': file.status == 'DOWNLOAD' || file.status == 'SEED'}">
                                 <div class="progress-inner bar" ng-class="{'active': file.status == 'DOWNLOAD' || file.status == 'SEED'}" style="width:{{file.progress}}%;"></div>
                             </div>
                         </a>
