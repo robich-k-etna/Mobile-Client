@@ -1,0 +1,53 @@
+<div id="menu-top" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+        <div class="container">
+            <h1>Configuration des serveurs</h1>
+        </div>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div class="row">
+
+        <!-- server-list -->
+        <div ng-show="view_part == 'list'" class="span12">
+            <div class="row">
+                <button class="btn btn-info span12 mt10" ng-click="addServer()">Ajouter un serveur</button>
+            </div>
+            <div class="row">
+                <table id="server-list" class="table table-bordered span12">
+                    <thead>
+                        <tr>
+                            <th colspan="3"><i class="icon-hdd"></i> Serveur</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="server in servers">
+                            <td style="width:100%">{{server.name}}</td>
+                            <td class="serv-action">
+                                <button class="btn btn-lagoon" ng-click="editServer(server)"><i class="icon-pencil"></i></button>
+                            </td>
+                            <td class="serv-action">
+                                <button class="btn btn-carmin" ng-click="deleteServer($index)"><i class="icon-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- add-server form -->
+        <div ng-show="view_part == 'form'" class="span12">
+            <div class="row">
+                <input type="text" ng-model="current_server.name" placeholder="Nom de la configuration" class="span12"/>
+                <input type="text" ng-model="current_server.address" placeholder="Adresse" class="span12"/>
+                <input type="text" ng-model="current_server.port" placeholder="Port" class="span12"/>
+                <input type="text" ng-model="current_server.login" placeholder="Nom d'utilisateur" class="span12"/>
+                <input type="password" ng-model="current_server.password" placeholder="Mot de passe" class="span12"/>
+                <button class="btn btn-info" ng-click="saveServer()">Sauvegarder</button>
+                <button class="btn btn-danger" ng-click="cancelEdit()">Annuler</button>
+            </div>
+        </div>
+
+    </div>
+</div>

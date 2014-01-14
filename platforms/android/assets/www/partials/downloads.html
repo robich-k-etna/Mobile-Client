@@ -1,0 +1,152 @@
+<div id="menu-top" class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+        <!-- Add dl -->
+        <div id="add-item" ng-click="addPart()" ng-show="view_part == 'list'" class="btn-lagoon pull-right">
+            <i class="icon-plus"></i>
+        </div>
+        <!-- Back dl-list -->
+        <div id="back-dl-list" ng-click="fileList()" ng-show="view_part != 'list'" class="btn-lagoon pull-left">
+            <i class="icon-chevron-left"></i>
+        </div>
+        <div class="container">
+            <h1>Téléchargements</h1>
+        </div>
+    </div>
+</div>
+
+<div id="content" class="container">
+    <div class="row" ng-show="view_part == 'list'">
+
+        <!-- serv-select -->
+        <h2 class="bold">Serveur :</h2>
+        <select ng-model="server_filter" ng-options="server.name as server.name for server in servers" id="serv-select" class="w85">
+            <option style="display:none;" value="">Sélectionnez un serveur</option>
+        </select>
+        <div ng-click="refreshInfos()" id="serv-refresh" class="btn-lagoon mB10 pull-right"><i class="icon-refresh"></i></div>
+
+        <!-- dl-stats -->
+        <div id="dl-stats" class="span12" ng-show="infos.files.length">
+            <div class="row">
+                <div class="dl-stats-left">
+                    <p>
+                        <span class="bold fs14">Download :</span><br/>
+                        {{infos.dlspeed | size}}/s. ({{infos.dltotal | size}})
+                    </p>
+                </div>
+                <!--<div class="dl-stats-right">-->
+                    <!--<p>-->
+                        <!--<span class="bold fs14">Upload :</span><br/>-->
+                        <!--{{infos.ulspeed}} Ko/s. ({{infos.ultotal}} Go)-->
+                    <!--</p>-->
+                <!--</div>-->
+            </div>
+            <div class="clearfix"></div>
+            <div class="dl-stats-files">
+                <p><span class="bold fs14">Total :</span> {{infos.files.length}} fichier<span ng-show="infos.files.length > 1">s</span></p>
+            </div>
+        </div>
+
+        <!-- dl-search -->
+        <div id="dl-search" ng-show="infos.files.length">
+            <div class="input-prepend input-append">
+                <span class="add-on add-on-left"><i class="icon-search"></i></span>
+                <input id="search-input" type="text" placeholder="Rechercher..." ng-model="filter.name">
+                <span class="add-on add-on-right" ng-click="filter = {}"><i class="icon-remove"></i></span>
+            </div>
+        </div>
+
+        <!-- dl-list -->
+        <div id="dl-list">
+            <h2 class="bold">Téléchargements :</h2>
+            <p ng-show="!infos.files.length">Vous n'avez aucun téléchargement actuellement.</p>
+            <ul>
+                <li ng-repeat="file in infos.files | filter:filter" class="dl-item collapse-group"
+                ng-class="{pause: file.status == 'PAUSED', error: file.status == 'ERROR'}">
+                    <div class="dl-item-overview">
+                        <span class="chevron btn-lagoon pull-right" ng-click="fileDetails(file)">
+                            <i class="icon-chevron-right"></i>
+                        </span>
+                        <a data-toggle="collapse" href="#dl{{$index}}">
+                            <span class="pull-left status-sign">
+                                <i ng-class="{'icon-pause': file.status == 'PAUSED', 'icon-warning-sign': file.status == 'ERROR', 'icon-download-alt': file.status == 'DOWNLOAD', 'icon-upload-alt': file.status == 'SEED', 'icon-ok': file.status == 'STOPPED'}"></i>
+                            </span>
+                            <h3>{{file.name}}</h3>
+                            <div class="progress-bar" ng-class="{'progress-info': file.status == 'DOWNLOAD', 'progress-success': file.status == 'STOPPED' || file.status == 'SEED', 'progress-warning': file.status == 'PAUSED', 'progress-danger': file.status == 'ERROR', 'progress-striped': file.status == 'DOWNLOAD' || file.status == 'SEED'}">
+                                <div class="progress-inner bar" ng-class="{'active': file.status == 'DOWNLOAD' || file.status == 'SEED'}" style="width:{{file.progress}}%;"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="dl{{$index}}" class="collapse open-item">
+                        <div class="open-wrap">
+                            <div class="open-left">DL: {{file.dl_rate | size}}/s.</div>
+                            <div class="open-right">({{file.progress}} %)</div>
+                            <div class="clearfix"></div>
+                            <div class="open-action">
+                                <button class="btn btn-info" ng-show="file.status == 'PAUSED' || file.status == 'STOPPED'" ng-click="startFile(file)"><i class="icon-play"></i> Reprendre</button>
+                                <button class="btn btn-warning" ng-hide="file.status == 'PAUSED' || file.status == 'STOPPED'" ng-click="stopFile(file)"><i class="icon-pause"></i> Arrêter</button>
+                                <button class="btn btn-danger" ng-click="deleteFile(file)"><i class="icon-remove"></i> Supprimer</button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="dl-details-list" class="row" ng-show="view_part == 'details'">
+        <h2 class="bold">Fichier :</h2>
+        <ul>
+            <li class="dl-item">
+                <div class="dl-item-details">
+                    <h3 class="no-margin">Nom du fichier</h3>
+                    <span>{{current_file.name}}</span>
+                </div>
+            </li>
+            <li class="dl-item">
+                <div class="dl-item-details">
+                    <h3 class="no-margin">Taille totale</h3>
+                    <span>{{current_file.total_size | size}}</span>
+                </div>
+            </li>
+            <li class="dl-item">
+                <div class="dl-item-details">
+                    <h3 class="no-margin">Date d'ajout</h3>
+                    <span>{{current_file.added_date | date:'dd/MM/yyyy, HH:mm'}}</span>
+                </div>
+            </li>
+        </ul>
+        <h2 class="bold mt25">Transfert :</h2>
+        <ul>
+            <li class="dl-item">
+                <div class="dl-item-details">
+                    <h3 class="no-margin">Taille téléchargée</h3>
+                    <span>{{current_file.dl_size | size}}</span>
+                </div>
+            </li>
+            <li class="dl-item">
+                <div class="dl-item-details">
+                    <h3 class="no-margin">Vitesse de téléchargement</h3>
+                    <span>{{current_file.dl_rate | size}}</span>
+                </div>
+            </li>
+            <li class="dl-item">
+                <div class="dl-item-details">
+                    <h3 class="no-margin">Progression</h3>
+                    <span>{{current_file.progress}} %</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="row" ng-show="view_part == 'add'">
+        <h2 class="bold">Ajout d'un téléchargement :</h2>
+        <select ng-model="current_file.type" class="span12">
+            <option style="display:none" value="">Type de télechargement</option>
+            <option value="torrent">Torrent</option>
+            <option value="http">HTTP</option>
+        </select>
+        <input type="text" ng-model="current_file.link" placeholder="Lien du téléchargement" class="span12" />
+        <button class="btn btn-info" ng-click="addFile()"><i class="icon-plus"></i> Ajouter</button>
+        <button class="btn btn-danger" ng-click="fileList()"><i class="icon-remove"></i> Annuler</button>
+    </div>
+</div>
